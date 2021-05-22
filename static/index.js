@@ -15,11 +15,12 @@ document.onkeydown=function(e){
   }
 }
 
-var authors = ["Kaiming He", "Graham Neubig"];
-var titles = ["BERT", "Transformer"];
+var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning"];
+var titles = ["BERT", "GPT","Transformer", "Task-oriented"];
 
 function highlight(seletor, name, type){
-  $(seletor).highlightRegex('/' + name + '/ig', {
+  name =  eval('/'+name+'/ig')
+  $(seletor).highlightRegex(name, {
     className: type
   });
 }
