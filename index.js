@@ -18,8 +18,8 @@ document.onkeydown=function(e){
 var authors = ["Kaiming He", "Graham Neubig"];
 var titles = ["BERT", "Transformer"];
 
-function highlight(name, type){
-  $('#jquery.selector').highlightRegex(/name/ig, {
+function highlight(seletor, name, type){
+  $(seletor).highlightRegex('/' + name + '/ig', {
     className: type
   });
 }
@@ -27,11 +27,11 @@ function highlight(name, type){
 
 for (var i=0;i<authors.length;i++)
 { 
-  highlight(authors[i], "highlight_author");
+  highlight('.article-authors', authors[i], "highlight_author");
 }
 
 
 for (var i=0;i<titles.length;i++)
 { 
-  highlight(authors[i], "highlight_title");
+  highlight('.article-expander__title',authors[i], "highlight_title");
 }
