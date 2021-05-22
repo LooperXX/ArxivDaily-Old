@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:56:01
- * @LastEditTime: 2021-05-22 21:39:32
+ * @LastEditTime: 2021-05-22 21:48:40
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -211,8 +211,10 @@ footer {
 
 .highlight_author {
     color: var(--base0B);
+    font-weight:bold;
 }
 
 .highlight_title {
     color: var(--base08);
+    font-weight:bold;
 }
