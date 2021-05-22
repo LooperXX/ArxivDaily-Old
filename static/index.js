@@ -1,8 +1,12 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
-Handlebars.addHelper("cleanTitle", function(title){
+// Handlebars.registerHelper("cleanTitle", function(title){
+//   return title.slice(0, title.indexOf(("(arXiv:")))
+// })
+
+function cleanTitle(title){
   return title.slice(0, title.indexOf(("(arXiv:")))
-})
+}
 
 /* Exapand/Collapse with TAB key */
 var expanded = false;
