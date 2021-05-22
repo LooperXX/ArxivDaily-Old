@@ -1,6 +1,9 @@
 # About
 
-This is repository hosts the UI and content of an RSS feed reader.
+An RSS feed reader for "ArxivDaily".
+
+Highlight for keywords in the title and authors of the paper
+- Modify keywords list and CSS style in `index.js` and `index.css`
 
 ## Links and references
 
