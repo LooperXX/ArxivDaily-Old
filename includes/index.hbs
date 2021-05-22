@@ -22,12 +22,13 @@
             {{#each sources}}
             <li class="source">
                 <section>
-                    <h3 class="source-name"><a class="source-name__link" href="{{feedUrl}}" onload="cleanTitle(event, {{title}})">{{title}}</a></h3>
+                    <h3 class="source-name"><a class="source-name__link" href="{{feedUrl}}"">{{title}}</a></h3>
                     <section class="articles-per-source">
                         {{#each articles}}
                         <article>
                             <details class="article-expander">
-                                <summary class="article-expander__title">{{title}}</summary>
+                                 {{!-- onload="cleanTitle(event, {{title}}) --}}
+                                <summary class="article-expander__title">{{cleanTitle title}}</summary>
                                 <div class="article-authors">
                                     {{{author}}}
                                 </div>
