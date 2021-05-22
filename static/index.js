@@ -4,12 +4,12 @@ document.getElementById("build-timestamp").innerText = "Last Update: " + new Dat
 //   return title.slice(0, title.indexOf(("(arXiv:")))
 // })
 
-$(document).ready(function () {
+window.onload=function(){
   $('.article-expander__title').on('ready', function (event) {
     var t = event.target;
     t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
   });
-});
+}
 
 // function cleanTitle(event){
 //   var t = event.target;
