@@ -26,8 +26,8 @@
                     <section class="articles-per-source">
                         {{#each articles}}
                         <article>
-                            <div class="article-expander">
-                                <div class="article-expander__title">{{title}}</div>
+                            <details class="article-expander">
+                                <summary class="article-expander__title">{{title}}</summary>
                                 <div class="article-authors">
                                     {{{author}}}
                                 </div>
@@ -36,7 +36,7 @@
                                         <span>{{description}}</span>
                                     </div>
                                 </a>
-                            </div>
+                            </details>
                         </article>
                         {{/each}}
                     </section>
