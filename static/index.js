@@ -15,7 +15,23 @@ document.onkeydown=function(e){
   }
 }
 
-$('.article-expander__title').replaceWith(function(event) {
-  $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
-  return $(this)
-});
+var authors = ["Kaiming He", "Graham Neubig"];
+var titles = ["BERT", "Transformer"];
+
+function highlight(name, type){
+  $('#jquery.selector').highlightRegex(/name/ig, {
+    className: type
+  });
+}
+
+
+for (var i=0;i<authors.length;i++)
+{ 
+  highlight(authors[i], "highlight_author");
+}
+
+
+for (var i=0;i<titles.length;i++)
+{ 
+  highlight(authors[i], "highlight_title");
+}
