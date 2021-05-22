@@ -2,6 +2,7 @@ document.getElementById("build-timestamp").innerText = "Last Update: " + new Dat
 
 $('.article-expander__title').replaceWith(function(event) {
   var t = event.target;
+  console.log(event);
   t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
   return t
 });
