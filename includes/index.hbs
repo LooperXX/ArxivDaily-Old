@@ -29,11 +29,10 @@
                             <details class="article-expander">
                                 <summary class="article-expander__title">{{title}}</summary>
                                 <div class="article-authors">
-                                    {{unescapeHTML author}}
+                                    {{{author}}}
                                 </div>
                                 <a class="article-summary-link article-summary-box-outer" href="{{link}}">
                                     <div class="article-summary-box-inner">
-                                        {{!-- <span class="article-reading-time">({{readingTimeInMin}} min)</span> --}}
                                         <span>{{description}}</span>
                                     </div>
                                 </a>
@@ -50,7 +49,6 @@
 
     <footer>
         <time id="build-timestamp" datetime="{{siteBuildTimestamp}}">{{siteBuildTimestamp}}</time>
-        <span><a class="footer-link" href="{{projectUrl}}">osmosfeed {{cliVersion}}</a></span>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="index.js"></script>
