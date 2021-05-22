@@ -150,7 +150,7 @@ a {
 
 .article-authors {
     font-size: var(--font-size-m);
-    padding-left: 8px;
+    padding: 0.25em 1em;
 }
 
 .article-expander__title {
@@ -210,4 +210,12 @@ footer {
 .footer-link:hover {
     color: var(--footer-link-hover-color);
     text-decoration: underline;
+}
+
+.highlight_author{
+    color: var(--base09);
+}
+
+.highlight_title{
+    color: var(--base08);
 }
