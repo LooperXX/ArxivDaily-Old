@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:56:01
- * @LastEditTime: 2021-05-22 21:48:40
+ * @LastEditTime: 2021-05-22 21:58:27
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -82,10 +82,6 @@ body {
 
 :not(:focus-visible) {
     outline: none;
-}
-
-footer {
-    margin: 0 auto;
 }
 
 a {
@@ -192,6 +188,7 @@ a {
 }
 
 footer {
+    margin: 0 auto;
     color: var(--footer-color);
     font-size: var(--font-size-s);
     display: flex;
