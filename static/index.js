@@ -1,15 +1,10 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
-// Handlebars.registerHelper("cleanTitle", function(title){
-//   return title.slice(0, title.indexOf(("(arXiv:")))
-// })
-
-window.onload=function(){
-  $('.article-expander__title').on('ready', function (event) {
-    var t = event.target;
-    t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
-  });
-}
+$('.article-expander__title').replaceWith(function(event) {
+  var t = event.target;
+  t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
+  return t
+});
 
 // function cleanTitle(event){
 //   var t = event.target;
