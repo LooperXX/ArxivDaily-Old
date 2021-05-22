@@ -5,7 +5,7 @@ document.getElementById("build-timestamp").innerText = "Last Update: " + new Dat
 // })
 
 $(document).ready(function () {
-  $('article-expander__title').on('ready', function (event) {
+  $('.article-expander__title').on('ready', function (event) {
     var t = event.target;
     t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
   });
