@@ -1,3 +1,7 @@
+Handlebars.registerHelper("cleanTitle", function(title){
+  return title.slice(0, title.indexOf(("(arXiv:")))
+})
+
 /* Exapand/Collapse with TAB key */
 var expanded = false;
 document.onkeydown=function(e){
