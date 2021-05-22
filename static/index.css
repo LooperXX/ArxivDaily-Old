@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:56:01
- * @LastEditTime: 2021-05-22 22:09:43
+ * @LastEditTime: 2021-05-22 22:13:08
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -49,7 +49,7 @@
     --source-name-hover-color: var(--base0D);
 
     --article-title-color: var(--base05);
-    --article-title-hover-color: var(--base0D);
+    --article-title-hover-color: var(--base0E);
     --article-summary-hover-color: var(--base0D);
     --article-summary-color: var(--base04);
 
