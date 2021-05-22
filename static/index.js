@@ -15,7 +15,7 @@ document.onkeydown=function(e){
   }
 }
 
-var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning"];
+var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning", "Noah A. Smith"];
 var titles = ["BERT", "GPT","Transformer", "Task-oriented"];
 
 function highlight(seletor, name, type){
@@ -34,5 +34,5 @@ for (var i=0;i<authors.length;i++)
 
 for (var i=0;i<titles.length;i++)
 { 
-  highlight('.article-expander__title',authors[i], "highlight_title");
+  highlight('.article-expander__title',titles[i], "highlight_title");
 }
