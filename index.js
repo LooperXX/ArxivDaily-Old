@@ -1,3 +1,7 @@
+Handlebars.registerHelper("cleanTitle", function(title){
+  return title.slice(0, title.indexOf(("(arXiv:")))
+})
+
 /* Exapand/Collapse with TAB key */
 var expanded = false;
 document.onkeydown=function(e){
@@ -7,3 +11,6 @@ document.onkeydown=function(e){
     return false;
   }
 }
+
+const timestamp = document.getElementById("build-timestamp");
+timestamp.innerText = new Date(timestamp.getAttribute("datetime")).toLocaleString();
