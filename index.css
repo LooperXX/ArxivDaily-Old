@@ -89,6 +89,15 @@ body {
     outline: none;
 }
 
+footer{
+    margin: 0 auto;
+}
+
+a {
+    color: var(--article-summary-color);
+    font-size: var(--font-size-m);
+}
+
 .card {
     border-radius: var(--card-radius);
     box-shadow: var(--card-shadow);
