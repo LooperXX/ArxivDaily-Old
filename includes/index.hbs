@@ -27,8 +27,7 @@
                         {{#each articles}}
                         <article>
                             <details class="article-expander">
-                                 {{!-- onload="cleanTitle(event, {{title}}) --}}
-                                <summary class="article-expander__title">{{cleanTitle title}}</summary>
+                                <summary class="article-expander__title" onload="cleanTitle(event, {{title}})>{{title}}</summary>
                                 <div class="article-authors">
                                     {{{author}}}
                                 </div>

@@ -1,15 +1,15 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
-Handlebars.registerHelper("cleanTitle", function(title){
-  return title.slice(0, title.indexOf(("(arXiv:")))
-})
+// Handlebars.registerHelper("cleanTitle", function(title){
+//   return title.slice(0, title.indexOf(("(arXiv:")))
+// })
 
-// function cleanTitle(event, title){
-//   title =  title.slice(0, title.indexOf(("(arXiv:")));
-//   var a = event.target;
-//   console.log(event);
-//   console.log(a);
-// }
+function cleanTitle(event, title){
+  title =  title.slice(0, title.indexOf(("(arXiv:")));
+  var a = event.target;
+  console.log(event);
+  console.log(a);
+}
 
 /* Exapand/Collapse with TAB key */
 var expanded = false;
