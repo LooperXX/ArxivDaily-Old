@@ -1,7 +1,13 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
 $('.article-expander__title').replaceWith(function(event) {
-  $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+  if ($(this)[0].textContent.indexOf("] UPDATED)") != -1){
+    $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+  }
+  else{
+    $(this)[0].textContent = "* UPDATED: " + $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+  }
+  
   return $(this)
 });
 
