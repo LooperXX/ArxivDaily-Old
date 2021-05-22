@@ -1,0 +1,582 @@
+{
+  "sources": [
+    {
+      "title": "Release notes from osmosfeed",
+      "feedUrl": "https://github.com/osmoscraft/osmosfeed/releases.atom",
+      "siteUrl": "https://github.com/osmoscraft/osmosfeed/releases",
+      "articles": [
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
+          "author": null,
+          "description": "⚠ Deprecated: To accommodate the monorepo setup, the node version in all templates/demos/examples has changed from 14 to 16. This is not a breaking change as our compile target is still node 14, and node 16 is backward compatible. We still recommend you start using node-version: \"16\" in your .github/workflows/update-feed.yaml today to get the performance/security improvements from the newer node. See example\nChore: Reorganize to monorepo with npm workspace.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.2",
+          "publishedOn": "2021-05-17T05:32:19.000Z",
+          "wordCount": 340,
+          "title": "v1.7.2"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.1",
+          "author": null,
+          "description": "Fixed: static files were unnecessarily copied for custom templates.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.1",
+          "publishedOn": "2021-05-16T02:33:58.000Z",
+          "wordCount": 276,
+          "title": "v1.7.1"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.0",
+          "author": null,
+          "description": "Added: templating system. Demo | Source | Docs\nChore: rendering logic refactoring. Adopting functional paradigm.\nThank you @tianheg, @onnyyonn",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.7.0",
+          "publishedOn": "2021-05-16T01:42:24.000Z",
+          "wordCount": 286,
+          "title": "v1.7.0"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.4.0",
+          "author": null,
+          "description": "Added: Basic theme customization: Demo | Source | Docs.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.4.0",
+          "publishedOn": "2021-05-10T08:55:42.000Z",
+          "wordCount": 276,
+          "title": "v1.4.0"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.6.0",
+          "author": null,
+          "description": "Added: Link from the title of a subscription to its website.\nAdded: Store feedUrl and siteUrl for each source in cache.\nAdded: Semantic element (<time>) for timestamp on the UI.\nAdded: Semantic API for theming the default template. Demo | Source | Docs\nChanged: Moved feed metadata from article level to feed level in cache.\nFixed: Any html-like text was stripped from title. Fixed with encoded text.\nRemoved: href for each source in cache. The value was never used so it's not a breaking change.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.6.0",
+          "publishedOn": "2021-05-10T08:15:20.000Z",
+          "wordCount": 352,
+          "title": "v1.6.0"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.5.0",
+          "author": null,
+          "description": "Added: Atom feed generator\nAdded: Customizable site title\nAdded: Copy all files from static directory to the root of the site.\nChanged: Favicon, css, and js assets now existing at site root level.\nChore: Excluded testing files from repo.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.5.0",
+          "publishedOn": "2021-05-08T05:16:47.000Z",
+          "wordCount": 306,
+          "title": "v1.5.0"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
+          "author": null,
+          "description": "Fixed: Avoid crwalers.\nFixed: Error logging from XML parser.\nFixed: Typo in docs.\nThank you: @dym-sh, @tabokie, @cheese1",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.1",
+          "publishedOn": "2021-05-05T05:19:57.000Z",
+          "wordCount": 285,
+          "title": "v1.3.1"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0",
+          "author": null,
+          "description": "Added: Customize cache lifespan with cacheMaxDays property in osmosfeed.yaml.\nAdded: Documentation for osmosfeed.yaml.\nFixed: More intuitive logging during build.\nChore: Refactored parameter passing for enrich step.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.3.0",
+          "publishedOn": "2021-05-05T05:19:26.000Z",
+          "wordCount": 293,
+          "title": "v1.3.0"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
+          "author": null,
+          "description": "Changed: favicon update.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.3",
+          "publishedOn": "2021-05-05T05:19:03.000Z",
+          "wordCount": 270,
+          "title": "v1.2.3"
+        },
+        {
+          "id": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
+          "author": null,
+          "description": "Added: Display CLI version in footer.",
+          "link": "https://github.com/osmoscraft/osmosfeed/releases/tag/v1.2.1",
+          "publishedOn": "2021-05-05T05:18:52.000Z",
+          "wordCount": 273,
+          "title": "v1.2.1"
+        }
+      ]
+    },
+    {
+      "title": "CSS-Tricks",
+      "feedUrl": "https://css-tricks.com/feed/",
+      "siteUrl": "https://css-tricks.com",
+      "articles": [
+        {
+          "id": "https://css-tricks.com/?p=340991",
+          "author": "Chris Coyier",
+          "description": "Stefan Judis, two days before I mouthed off about using (X, X, X, X) for talking about specificity, has a great blog post not only using that format, but advocating that browser DevTools should show us that value by …\nThe post Should DevTools teach the CSS cascade? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/",
+          "publishedOn": "2021-05-21T23:22:54.000Z",
+          "wordCount": 1166,
+          "title": "Should DevTools teach the CSS cascade?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340825",
+          "author": "Adam Rackis",
+          "description": "This post is an accelerated introduction to Svelte from the point of view of someone with solid experience with React. I’ll provide a quick introduction, and then shift focus to things like state management and DOM interoperability, among other things. …\nThe post Svelte for the Experienced React Dev appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/svelte-for-the-experienced-react-dev/",
+          "publishedOn": "2021-05-21T14:30:59.000Z",
+          "wordCount": 3256,
+          "title": "Svelte for the Experienced React Dev"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340919",
+          "author": "Chris Coyier",
+          "description": "Collection of common CSS mistakes, and how to fix them\nFrom Stefánia Péter. \nClever idea for a site! Some of them are little mind-twisters that could bite you, and some of them are honing in on best practices that …\nThe post CSS Hell appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://csshell.dev/",
+          "publishedOn": "2021-05-21T14:29:16.000Z",
+          "wordCount": 295,
+          "title": "CSS Hell"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340599",
+          "author": "Chris Coyier",
+          "description": "Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …\nThe post JSON in CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/json-in-css/",
+          "publishedOn": "2021-05-20T22:29:53.000Z",
+          "wordCount": 929,
+          "title": "JSON in CSS"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340933",
+          "author": "Chris Coyier",
+          "description": "Ooo look at this mighty SEO flex from Google: Learn CSS! Well deserved — this is great content. Twenty-three chapters taking you through all the fundamentals of CSS with extra content, like relevant podcasts, interactive examples, and even quizzes to …\nThe post Learn CSS! appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://web.dev/learn/css/",
+          "publishedOn": "2021-05-20T21:51:43.000Z",
+          "wordCount": 1040,
+          "title": "Learn CSS!"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340715",
+          "author": "Jhey Tompkins",
+          "description": "If you follow new developments in CSS, you’ve likely heard of the impending arrival of container queries. We’re going to look at the basics here, but if you’d like another look, check out Una’s “Next Gen CSS: @container” article. …\nThe post Can We Create a “Resize Hack” With Container Queries? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/",
+          "publishedOn": "2021-05-20T14:24:12.000Z",
+          "wordCount": 1725,
+          "title": "Can We Create a “Resize Hack” With Container Queries?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340897",
+          "author": "Chris Coyier",
+          "description": "Here’s some hardcore deep-dive CSS nerdery from PPK. If you can wrap your mind around min-content (the smallest an element can be based on the content it contains) and max-content (the largest the content of an element can push it) …\nThe post fit-content and fit-content() appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.quirksmode.org/blog/archives/2021/04/fitcontent_and.html",
+          "publishedOn": "2021-05-20T14:20:56.000Z",
+          "wordCount": 1196,
+          "title": "fit-content and fit-content()"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340731",
+          "author": "Chris Coyier",
+          "description": "The Public Beta of the Notion API dropped! Woot! Here’s their guide. I’ve been a Notion user and fan for a long time, for both personal and professional team use. They even sponsored a few videos around here a …\nThe post Notion API appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/notion-api/",
+          "publishedOn": "2021-05-19T23:18:42.000Z",
+          "wordCount": 1042,
+          "title": "Notion API"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340692",
+          "author": "Shubham Jain",
+          "description": "SVGs are awesome: they are small, look sharp on any scale, and can be customized without creating a separate file. However, there is something I feel is missing in web standards today: a way to include them as an external …\nThe post svg-loader: A Different Way to Work With External SVG appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/svg-loader-a-different-way-to-work-with-external-svg/",
+          "publishedOn": "2021-05-19T14:28:19.000Z",
+          "wordCount": 1606,
+          "title": "svg-loader: A Different Way to Work With External SVG"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340613",
+          "author": "Chris Coyier",
+          "description": "I’m afraid I have to start this with a whole backstory, as the journey here is the point, not so much the theme.\nA fella wrote to me a while back outlining a situation he was in. His company has …\nThe post Pinned Audio WordPress Theme appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/pinned-audio-wordpress-theme/",
+          "publishedOn": "2021-05-18T19:14:53.000Z",
+          "wordCount": 1082,
+          "title": "Pinned Audio WordPress Theme"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340420",
+          "author": "Silvia O'Dwyer",
+          "description": "Neon text can add a nice, futuristic touch to any website. I’ve always loved the magic of neon signs, and wanted to recreate them using CSS. I thought I’d share some tips on how to do it! In this article, …\nThe post How to Create Neon Text With CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/how-to-create-neon-text-with-css/",
+          "publishedOn": "2021-05-18T14:31:25.000Z",
+          "wordCount": 2401,
+          "title": "How to Create Neon Text With CSS"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340716",
+          "author": "Chris Coyier",
+          "description": "Addy Osmani on images in HTML:\nThe humble <img> element has gained some superpowers over the years. Given how central it is to image optimization on the web, let’s catch up on what it can do and how it can \n…\nThe post The Humble `img` Element And Core Web Vitals appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/",
+          "publishedOn": "2021-05-17T22:38:06.000Z",
+          "wordCount": 5325,
+          "title": "The Humble `img` Element And Core Web Vitals"
+        },
+        {
+          "id": "https://css-tricks.com/?p=339522",
+          "author": "Ashley Kolodziej",
+          "description": "I see you. In the back there, behind JavaScript and React and PHP and all those “real” programming languages, I see you. And I appreciate you.\nThe post A Love Letter to HTML & CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/a-love-letter-to-html-css/",
+          "publishedOn": "2021-05-17T14:27:22.000Z",
+          "wordCount": 2908,
+          "title": "A Love Letter to HTML & CSS"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340594",
+          "author": "Chris Coyier",
+          "description": "An interactive tool for learning grid syntax from Etesam Ansari. In the Learn section, it teaches you some concepts (involving multiple bits of the grid syntax) then gives you a task to complete by filling out the right syntax. I’m …\nThe post Euismod appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.euismod.dev/",
+          "publishedOn": "2021-05-17T14:27:13.000Z",
+          "wordCount": 3,
+          "title": "Euismod"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340136",
+          "author": "Chris Coyier",
+          "description": "I’ve been thinking about social media images again. You know, the images that (can) show up when you share a link in places like Twitter, Facebook, or iMessage. You’re essentially leaving money on the table without them, because they …\nThe post Auto-Generated Social Media Images appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/auto-generated-social-media-images/",
+          "publishedOn": "2021-05-14T20:34:49.000Z",
+          "wordCount": 2298,
+          "title": "Auto-Generated Social Media Images"
+        }
+      ]
+    },
+    {
+      "title": "Articles on Smashing Magazine — For Web Designers And Developers",
+      "feedUrl": "https://www.smashingmagazine.com/feed/",
+      "siteUrl": "https://www.smashingmagazine.com/",
+      "articles": [
+        {
+          "id": "https://smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/",
+          "author": "hello@smashingmagazine.com (Shalabh Vyas)",
+          "description": "Let’s build a rich text, WYSIWYG-editor that supports rich text, images, links and some nuanced features from word processing apps. We will use SlateJS to build the shell of the editor and then add a toolbar and custom configurations.",
+          "link": "https://smashingmagazine.com/2021/05/building-wysiwyg-editor-javascript-slatejs/",
+          "publishedOn": "2021-05-21T11:30:00.000Z",
+          "wordCount": 9398,
+          "title": "Building A Rich Text Editor (WYSIWYG) From Scratch"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/new-online-workshops-front-end-ux/",
+          "author": "hello@smashingmagazine.com (Iris Lješnjanin)",
+          "description": "Front-end and design are remarkably complex these days. That’s why we invite kind, smart folks from the community to run online workshops for all of us to learn together. And we have new ones coming up, and we’d like to kindly welcome you to join in.",
+          "link": "https://smashingmagazine.com/2021/05/new-online-workshops-front-end-ux/",
+          "publishedOn": "2021-05-20T14:20:00.000Z",
+          "wordCount": 831,
+          "title": "Boost Your Skills Online: Smashing Workshops On Front-End And Design"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/implement-authentication-nextjs-auth0/",
+          "author": "hello@smashingmagazine.com (Facundo Giuliani)",
+          "description": "A step-by-step tutorial on adding authentication and authorization to your Next.js apps, with Auth0. We’ll be using a Next.js SDK to connect our application to the Auth0 API and will create the dynamic API route for React.",
+          "link": "https://smashingmagazine.com/2021/05/implement-authentication-nextjs-auth0/",
+          "publishedOn": "2021-05-20T11:00:00.000Z",
+          "wordCount": 1919,
+          "title": "How To Implement Authentication In Next.js With Auth0"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/frustrating-design-patterns-mega-dropdown-hover-menus/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "Everything to keep in mind when designing and building a mega-dropdown, common pitfalls, hover entry/exit delays, trajectory triangle technique and SVG path exit areas.",
+          "link": "https://smashingmagazine.com/2021/05/frustrating-design-patterns-mega-dropdown-hover-menus/",
+          "publishedOn": "2021-05-19T11:40:00.000Z",
+          "wordCount": 4986,
+          "title": "Frustrating Design Patterns: Mega-Dropdown Hover Menus"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/create-edit-animate-svg-svgator3/",
+          "author": "hello@smashingmagazine.com (Mikołaj Dobrucki)",
+          "description": "Today, we are taking a closer look at [SVGator 3.0](https://www.svgator.com/?utm_source=article&utm_medium=smashingmag&utm_campaign=svgator3_smashing), a new major release of the popular SVG application that lets you create, edit and animate SVG files and make the best out of what SVG has to offer — from start to finish.",
+          "link": "https://smashingmagazine.com/2021/05/create-edit-animate-svg-svgator3/",
+          "publishedOn": "2021-05-18T10:30:00.000Z",
+          "wordCount": 1796,
+          "title": "How To Create, Edit And Animate SVGs All In One Place With SVGator 3.0"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/",
+          "author": "hello@smashingmagazine.com (Drew McLellan)",
+          "description": "In this episode, we’re talking about VisBug. What is it, and how is it different from the array of options already found in Chrome DevTools? Drew McLellan talks to its creator Adam Argyle to find out.",
+          "link": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-37/",
+          "publishedOn": "2021-05-18T05:00:00.000Z",
+          "wordCount": 9250,
+          "title": "Smashing Podcast Episode 37 With Adam Argyle: What Is VisBug?"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/core-web-vitals-case-study/",
+          "author": "hello@smashingmagazine.com (Beau Hartshorne)",
+          "description": "Google’s “Page Experience Update” will start rolling out in June. At first, sites that meet Core Web Vitals thresholds will have a minor ranking advantage in mobile search for all browsers. Search is important to any business, and this is the story of how Beau Hartshorne and his team at Instant Domain Search improved their Core Web Vitals scores.",
+          "link": "https://smashingmagazine.com/2021/05/core-web-vitals-case-study/",
+          "publishedOn": "2021-05-17T11:30:00.000Z",
+          "wordCount": 2906,
+          "title": "How We Improved Our Core Web Vitals (Case Study)"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/tree-shaking-reference-guide/",
+          "author": "hello@smashingmagazine.com (Átila Fassina)",
+          "description": "“Tree-shaking” is a must-have performance optimization when bundling JavaScript. In this article, we dive deeper on how exactly it works and how specs and practice intertwine to make bundles leaner and more performant. Plus, you’ll get a tree-shaking checklist to use for your projects.",
+          "link": "https://smashingmagazine.com/2021/05/tree-shaking-reference-guide/",
+          "publishedOn": "2021-05-14T10:30:00.000Z",
+          "wordCount": 2393,
+          "title": "Tree-Shaking: A Reference Guide"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/frustrating-design-patterns-birthday-picker/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "In this new series of articles on UX, we take a closer look at some frustrating design patterns and explore better alternatives, along with plenty of examples to keep in mind when building or designing one. Let’s start with an infamous birthday picker.",
+          "link": "https://smashingmagazine.com/2021/05/frustrating-design-patterns-birthday-picker/",
+          "publishedOn": "2021-05-12T12:42:00.000Z",
+          "wordCount": 3443,
+          "title": "Frustrating Design Patterns That Need Fixing: Birthday Picker"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/little-smashing-stories/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "Today marks the day we sent out our 300th edition of the Smashing Newsletter. This article is a little celebration in which we share little Smashing stories from people working behind the scenes.",
+          "link": "https://smashingmagazine.com/2021/05/little-smashing-stories/",
+          "publishedOn": "2021-05-12T08:00:00.000Z",
+          "wordCount": 1993,
+          "title": "Little Smashing Stories"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/complete-guide-css-container-queries/",
+          "author": "hello@smashingmagazine.com (Stephanie Eckles)",
+          "description": "A prototype of the long-awaited CSS container queries has landed in Chrome Canary and is available for experimentation. Let’s look at what problem is being solved, learn how container queries work, and see how they compare with and complement existing CSS features for layout.",
+          "link": "https://smashingmagazine.com/2021/05/complete-guide-css-container-queries/",
+          "publishedOn": "2021-05-11T13:30:00.000Z",
+          "wordCount": 4874,
+          "title": "A Primer On CSS Container Queries"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/smashingconf-conference-platform-hopin/",
+          "author": "hello@smashingmagazine.com (Amanda Annandale)",
+          "description": "At the beginning of 2020, the SmashingConf team was ready for a new year. We had so many things that excited us. New speakers, new workshops, new cities, new attendees, new experiences. And as we all know, 2020 had other ideas. With so many people working from home, we thought we would bring our [Smashing workshops](https://smashingconf.com/online-workshops/) from our home offices to yours — but how?",
+          "link": "https://smashingmagazine.com/2021/05/smashingconf-conference-platform-hopin/",
+          "publishedOn": "2021-05-11T10:00:00.000Z",
+          "wordCount": 1958,
+          "title": "The Conference Platform We Use For Our Online Events: Hopin"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/get-started-whac-a-mole-react-game/",
+          "author": "hello@smashingmagazine.com (Jhey Tompkins)",
+          "description": "Want to get started with React but struggling to find a good place to start? This article should have you covered. We’ll focus on some of the main concepts of React and then we’ll be building a game from scratch!",
+          "link": "https://smashingmagazine.com/2021/05/get-started-whac-a-mole-react-game/",
+          "publishedOn": "2021-05-10T11:00:00.000Z",
+          "wordCount": 6310,
+          "title": "Get Started With React By Building A Whac-A-Mole Game"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/product-records-organization-collaboration-best-practices/",
+          "author": "hello@smashingmagazine.com (Valeriia Panina)",
+          "description": "How do you organize your Google Drive assets? How do you name your Dropbox Paper documents? How do you deal with comments? Let’s get it right.",
+          "link": "https://smashingmagazine.com/2021/05/product-records-organization-collaboration-best-practices/",
+          "publishedOn": "2021-05-07T10:00:00.000Z",
+          "wordCount": 4127,
+          "title": "How To Organize Product-Related Assets And Collaborate Better"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/improving-performance-shopify-themes-case-study/",
+          "author": "hello@smashingmagazine.com (Carson Shold)",
+          "description": "When dealing with themes for large platforms and CMS, legacy issues often become a bottleneck. In this article, Carson Shold discusses how his team improved the performance and organization of their Shopify themes, and improved maintainability along the way.",
+          "link": "https://smashingmagazine.com/2021/05/improving-performance-shopify-themes-case-study/",
+          "publishedOn": "2021-05-06T11:00:00.000Z",
+          "wordCount": 2617,
+          "title": "Improving The Performance Of Shopify Themes (Case Study)"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/reduce-data-sent-client-nextjs/",
+          "author": "hello@smashingmagazine.com (Liran Cohen)",
+          "description": "This article showcases a case study of Bookaway’s landing page performance. We’ll see how taking care of the props we send to Next.js pages can make loading times and Web Vitals better.",
+          "link": "https://smashingmagazine.com/2021/05/reduce-data-sent-client-nextjs/",
+          "publishedOn": "2021-05-05T10:30:00.000Z",
+          "wordCount": 2296,
+          "title": "Reducing HTML Payload With Next.js (Case Study)"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/undoing-mistakes-git-part1/",
+          "author": "hello@smashingmagazine.com (Tobias Günther)",
+          "description": "No matter how experienced you are, mistakes are an inevitable part of software development. But we can learn to repair them! And this is what we'll be looking at in this two-part series: how to undo mistakes using Git.",
+          "link": "https://smashingmagazine.com/2021/05/undoing-mistakes-git-part1/",
+          "publishedOn": "2021-05-04T14:30:00.000Z",
+          "wordCount": 1791,
+          "title": "A Guide To Undoing Mistakes With Git"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-36/",
+          "author": "hello@smashingmagazine.com (Drew McLellan)",
+          "description": "In this episode, we’re starting our new season of the Smashing Podcast with a look at the future of CSS. What new specs will be landing in browsers soon? Drew McLellan talks to expert Miriam Suzanne to find out.",
+          "link": "https://smashingmagazine.com/2021/05/smashing-podcast-episode-36/",
+          "publishedOn": "2021-05-04T05:00:00.000Z",
+          "wordCount": 6993,
+          "title": "Smashing Podcast Episode 36 With Miriam Suzanne: What Is The Future Of CSS?"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/05/evolution-jamstack/",
+          "author": "hello@smashingmagazine.com (Mathias Biilmann)",
+          "description": "Web-oriented databases, frameworks like Nuxt and Next.js, and even frameworkless approaches are evolving the Jamstack, but the core principles are more powerful than ever.",
+          "link": "https://smashingmagazine.com/2021/05/evolution-jamstack/",
+          "publishedOn": "2021-05-03T07:00:00.000Z",
+          "wordCount": 2141,
+          "title": "The Evolution Of Jamstack"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/desktop-wallpaper-calendars-may-2021/",
+          "author": "hello@smashingmagazine.com (Cosima Mielke)",
+          "description": "Do you need a little inspiration boost? Well, then our new collection of wallpapers is for you. Designed with love by the community for the community, the wallpapers are available with and without a calendar for May 2021.",
+          "link": "https://smashingmagazine.com/2021/04/desktop-wallpaper-calendars-may-2021/",
+          "publishedOn": "2021-04-30T09:00:00.000Z",
+          "wordCount": 2139,
+          "title": "May Is In The Air (2021 Wallpapers Edition)"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/",
+          "author": "hello@smashingmagazine.com (Addy Osmani)",
+          "description": "Images have also been a key part of the web. They communicate ideas instantly, but they are also a lot heavier than text to load. This means that it’s essential to get loading and displaying them right, if you want to give your users a fantastic first impression. An excerpt from [Addy's new book](https://www.smashingmagazine.com/2021/04/image-optimization-pre-release/) (also, check a [free PDF preview](http://provide.smashingmagazine.com/eBooks/image-optimization-sample-chapter.pdf)).",
+          "link": "https://smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/",
+          "publishedOn": "2021-04-29T12:15:00.000Z",
+          "wordCount": 5325,
+          "title": "The Humble `<img>` Element And Core Web Vitals"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/image-optimization-pre-release/",
+          "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+          "description": "The cat is out! For the last year, we’ve been working with Addy Osmani on a new Smashing Book all around image optimization. And now it’s here. Meet “Image Optimization”, our practical modern guide to delivering high-quality images on the web with the best performance.",
+          "link": "https://smashingmagazine.com/2021/04/image-optimization-pre-release/",
+          "publishedOn": "2021-04-28T13:20:00.000Z",
+          "wordCount": 2130,
+          "title": "Meet Image Optimization, A New Smashing Book By Addy Osmani"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/easing-functions-css-animations-transitions/",
+          "author": "hello@smashingmagazine.com (Adrian Bece)",
+          "description": "Easing functions can change the look and feel of an animation by affecting the rate, or speed, of an animation. In this article, we’re going to take a deep dive into easing functions and see how we can use them to create those natural and stunning animations.",
+          "link": "https://smashingmagazine.com/2021/04/easing-functions-css-animations-transitions/",
+          "publishedOn": "2021-04-27T12:00:00.000Z",
+          "wordCount": 2623,
+          "title": "Understanding Easing Functions For CSS Animations And Transitions"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/bake-layers-accessibility-testing-process/",
+          "author": "hello@smashingmagazine.com (Kate Kalcevich & Mike Gifford)",
+          "description": "Accessibility experts Kate Kalcevich and Mike Gifford introduce readers to \"layered accessibility testing”, a practice of using a variety of tools and approaches at different stages in the digital product lifecycle to catch accessibility issues early — when it’s easier and cheaper to fix them.",
+          "link": "https://smashingmagazine.com/2021/04/bake-layers-accessibility-testing-process/",
+          "publishedOn": "2021-04-26T11:00:00.000Z",
+          "wordCount": 3279,
+          "title": "How To Bake Layers Of Accessibility Testing Into Your Process"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/",
+          "author": "hello@smashingmagazine.com (Stephanie Eckles)",
+          "description": "The CSS Working Group Editor’s Draft for [Selectors Level 4](https://drafts.csswg.org/selectors-4/) includes several pseudo-class selectors that already have proposal candidates in most modern browsers. This guide will cover ones that currently have the best support along with examples to demonstrate how you can start using them today!",
+          "link": "https://smashingmagazine.com/2021/04/guide-supported-modern-css-pseudo-class-selectors/",
+          "publishedOn": "2021-04-23T08:30:00.000Z",
+          "wordCount": 2430,
+          "title": "A Guide To Newly Supported, Modern CSS Pseudo-Class Selectors"
+        },
+        {
+          "id": "https://smashingmagazine.com/2021/04/web-design-done-well-part1/",
+          "author": "hello@smashingmagazine.com (Frederick O’Brien)",
+          "description": "Sometimes it’s the little things in web life that make us look twice. From carousels to documentation to cookie disclaimers, here are some sites taking the mundane and sprinkling in a little magic.",
+          "link": "https://smashingmagazine.com/2021/04/web-design-done-well-part1/",
+          "publishedOn": "2021-04-22T14:00:00.000Z",
+          "wordCount": 1764,
+          "title": "Web Design Done Well: The Ordinary Made Extraordinary (Part 1)"
+        }
+      ]
+    },
+    {
+      "title": "freeCodeCamp.org",
+      "feedUrl": "https://www.freecodecamp.org/news/rss/",
+      "siteUrl": "https://www.freecodecamp.org/news",
+      "articles": [
+        {
+          "id": "6098ce302cd0545b5e944d0b",
+          "author": "",
+          "description": "In programming, an array is a collection of elements or items. Arrays store data as elements and retrieve them back when you need them.  The array data structure is widely used in all programming languages that support it. In this handbook, I'll teach you all about arrays in JavaScript. You'll",
+          "link": "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
+          "publishedOn": "2021-05-21T15:33:45.000Z",
+          "wordCount": 4309,
+          "title": "The JavaScript Array Handbook – JS Array Methods Explained with Examples"
+        },
+        {
+          "id": "60a6b3ab906c5207e3a7f5fa",
+          "author": "",
+          "description": "Angular is one of the most popular web frameworks. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create an Angular 11 project from scratch. It uses a public API to create a game database website. You will gain a great foundation",
+          "link": "https://www.freecodecamp.org/news/angular-11-tutorial-code-a-project-from-scratch/",
+          "publishedOn": "2021-05-20T19:14:48.000Z",
+          "wordCount": 397,
+          "title": "Angular 11 Tutorial: Code a Project from Scratch"
+        },
+        {
+          "id": "60a694ab906c5207e3a7f544",
+          "author": "",
+          "description": "A lot of C++ courses teach you how to build toy projects with no real-world application. But it can often be more helpful to write programs people would actually use. We just released a 5-hour C++ course that will teach you how to write modern C++ code by building an",
+          "link": "https://www.freecodecamp.org/news/learn-modern-cpp-by-building-an-audio-plugin/",
+          "publishedOn": "2021-05-20T17:12:29.000Z",
+          "wordCount": 436,
+          "title": "Learn Modern C++ by Building an Audio Plugin"
+        },
+        {
+          "id": "60a4b5c7906c5207e3a7e2bb",
+          "author": "",
+          "description": "In this tutorial, you'll learn what version control is and how you can contribute to open-source projects using Git.  We'll get through the fundamentals of Git and I'll give you the knowledge that is indispensable for any web developer. What is Git?Git is a version control software which lets",
+          "link": "https://www.freecodecamp.org/news/get-started-with-version-control-and-git/",
+          "publishedOn": "2021-05-20T15:20:53.000Z",
+          "wordCount": 1493,
+          "title": "How to Get Started with Version Control Using Git"
+        },
+        {
+          "id": "60a36742906c5207e3a7da6e",
+          "author": "",
+          "description": "Over the last four months, I have recorded what is probably the most interactive JavaScript course that has ever been created. The reason I have done this is because I often see new coders fall into the same pitfalls again and again when trying to learn JavaScript, with the most",
+          "link": "https://www.freecodecamp.org/news/learn-javascript-interactive-course/",
+          "publishedOn": "2021-05-20T14:53:38.000Z",
+          "wordCount": 1202,
+          "title": "Learn JavaScript - A Free 7-hour Interactive Tutorial"
+        },
+        {
+          "id": "60a341f5906c5207e3a7da61",
+          "author": "",
+          "description": "CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been",
+          "link": "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
+          "publishedOn": "2021-05-19T23:17:21.000Z",
+          "wordCount": 2742,
+          "title": "How to Use CSS Selectors to Style Your Web Page"
+        },
+        {
+          "id": "60a42386906c5207e3a7dfe2",
+          "author": "",
+          "description": "The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.",
+          "link": "https://www.freecodecamp.org/news/what-is-web3/",
+          "publishedOn": "2021-05-19T21:09:01.000Z",
+          "wordCount": 2087,
+          "title": "What is Web3? The Decentralized Internet of the Future Explained"
+        },
+        {
+          "id": "60a469ec906c5207e3a7e1b9",
+          "author": "",
+          "description": "Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second",
+          "link": "https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/",
+          "publishedOn": "2021-05-19T17:30:08.000Z",
+          "wordCount": 1981,
+          "title": "How to Optimize for Change in Software Development"
+        },
+        {
+          "id": "60a53182906c5207e3a7e588",
+          "author": "",
+          "description": "Lately, I've been talking about my move into the Web3, Ethereum, and crypto space since making the switch from a traditional web, mobile, and cloud background. Since making that move, a shocking number of people have reached out to me who are also thinking about doing the same.  It's really",
+          "link": "https://www.freecodecamp.org/news/breaking-into-ethereum-crypto-web3-as-a-developer/",
+          "publishedOn": "2021-05-18T21:04:00.000Z",
+          "wordCount": 2258,
+          "title": "How to Break into Ethereum, Crypto, and Web3 as a Developer"
+        },
+        {
+          "id": "60a3780f906c5207e3a7db5f",
+          "author": "",
+          "description": "If you offer your services as a freelance developer, you have a major say in how you price your project.  But how do you go about charging for a website project? \"Well, I just bill by the hour and send an invoice every week or month.\" ...I hear you say.",
+          "link": "https://www.freecodecamp.org/news/the-different-ways-to-charge-for-a-website/",
+          "publishedOn": "2021-05-18T17:12:59.000Z",
+          "wordCount": 1973,
+          "title": "Freelance Development Pricing Guide – Should Freelancers Bill by the Hour?"
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.7.2"
+}
