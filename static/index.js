@@ -20,9 +20,9 @@ document.onkeydown=function(e){
     return false;
   }
 }
-
+// Highlight Keywords
 var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning", "Noah A. Smith"];
-var titles = ["BERT", "GPT","Transformer", "Task-oriented"];
+var titles = ["BERT", "GPT","Transformer", "Task-oriented", "Cross-Modal", "Multi-Modal", "Contrastive Learning"];
 
 function highlight(seletor, name, type){
   name =  eval('/'+name+'/ig')
