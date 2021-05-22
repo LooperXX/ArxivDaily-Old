@@ -1,3 +1,11 @@
+/*
+ * @Author: LooperXX
+ * @Email: xxu@ir.hit.edu.cn
+ * @Date: 2021-05-22 14:40:50
+ * @LastEditTime: 2021-05-22 21:20:26
+ * @LastEditors: LooperXX
+ * @Description: 
+ */
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
 $('.article-expander__title').replaceWith(function(event) {
