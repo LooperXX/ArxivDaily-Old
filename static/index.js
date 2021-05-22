@@ -4,8 +4,11 @@ document.getElementById("build-timestamp").innerText = "Last Update: " + new Dat
 //   return title.slice(0, title.indexOf(("(arXiv:")))
 // })
 
-function cleanTitle(title){
-  return title.slice(0, title.indexOf(("(arXiv:")))
+function cleanTitle(event, title){
+  title =  title.slice(0, title.indexOf(("(arXiv:")));
+  var a = event.target;
+  console.log(event);
+  console.log(a);
 }
 
 /* Exapand/Collapse with TAB key */
