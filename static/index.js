@@ -5,11 +5,6 @@ $('.article-expander__title').replaceWith(function(event) {
   return $(this)
 });
 
-// function cleanTitle(event){
-//   var t = event.target;
-//   t.textContent = t.textContent.slice(0, t.textContent.indexOf(("(arXiv:")));
-// }
-
 /* Exapand/Collapse with TAB key */
 var expanded = false;
 document.onkeydown=function(e){
@@ -19,3 +14,8 @@ document.onkeydown=function(e){
     return false;
   }
 }
+
+$('.article-expander__title').replaceWith(function(event) {
+  $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+  return $(this)
+});
