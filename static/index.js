@@ -11,3 +11,6 @@ document.onkeydown=function(e){
     return false;
   }
 }
+
+const timestamp = document.getElementById("build-timestamp");
+timestamp.innerText = new Date(timestamp.getAttribute("datetime")).toLocaleString();
