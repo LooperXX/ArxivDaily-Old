@@ -1,139 +1,65 @@
 <style>
+    :root {
+        /**
+       * Solarized Light
+       * Ethan Schoonover (modified by aramisgithub)
+       */
+        --base00: #fdf6e3;
+        --base01: #eee8d5;
+        --base02: #93a1a1;
+        --base03: #839496;
+        --base04: #657b83;
+        --base05: #586e75;
+        --base06: #073642;
+        --base07: #002b36;
+        --base08: #dc322f;
+        --base09: #cb4b16;
+        --base0A: #b58900;
+        --base0B: #859900;
+        --base0C: #2aa198;
+        --base0D: #268bd2;
+        --base0E: #6c71c4;
+        --base0F: #d33682;
 
-:root {
-  /* Palette: Nord (https://www.nordtheme.com)*/
-  --nord00: #2e3440;
-  --nord01: #3b4252;
-  --nord02: #434c5e;
-  --nord03: #4c566a;
-  --nord04: #d8dee9;
-  --nord05: #e5e9f0;
-  --nord06: #eceff4;
-  --nord07: #8fbcbb;
-  --nord08: #88c0d0;
-  --nord09: #81a1c1;
-  --nord0A: #5e81ac;
-  --nord0B: #bf616a;
-  --nord0C: #d08770;
-  --nord0D: #ebcb8b;
-  --nord0E: #a3be8c;
-  --nord0F: #b48ead;
-}
+        /**
+      * Typograph
+      */
+        --font-size-m: 1.6rem;
+        --font-size-s: 1.4rem;
 
-body {
-  background-color: var(--nord00);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
-    sans-serif;
-  color: var(--nord06);
-  margin: 0;
-  padding: 16px;
-  display: grid;
-}
+        /**
+      * Components
+      */
+        --body-color: var(--base07);
+        --body-bg: var(--base01);
 
-.header-container {
-  width: 90%;
-  max-width: 1200px;
-  background: var(--nord00);
-  margin: 0 auto;
-}
+        --source-name-color: var(--base0D);
+        --source-name-hover-color: var(--base0D);
 
-.header-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: var(--nord06);
-  margin: 0;
-  padding-bottom: 14px;
-}
+        --article-title-color: var(--base05);
+        --article-title-hover-color: var(--base0E);
+        --article-summary-hover-color: var(--base0D);
 
-.icons {
-  color: var(--nord06);
-  padding-bottom: 16px;
-}
-  
-.icons a {
-  color: var(--nord06);
-  text-decoration: none;
-}
+        --accordion-content-rail-color: var(--base01);
+        --accordion-content-hover-rail-color: var(--base0D);
+        --accordion-title-marker-color: var(--base01);
+        --accordion-title-hover-marker-color: var(--base0E);
 
-.icons a:hover {
-  color: var(--nord0F);
-}
+        --card-bg: var(--base00);
+        --card-shadow: none;
+        --card-radius: 0;
+        --footer-link-hover-color: var(--base0D);
+    }
 
-.day-container {
-  padding: 16px 16px 16px 16px;
-  background: var(--nord01);
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 8px;
-  border-radius: 10px;
-}
+    .daily-heading {
+        padding-left: 0;
+    }
 
-.date {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-  color: var(--nord09);
-}
+    .article-expander {
+        padding: 10px 4px;
+    }
 
-p {
-  margin: 0;
-}
-
-summary {
-  font-weight: 600;
-  color: var(--nord0E);
-}
-
-summary:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  color: var(--nord0F);
-}
-
-details {
-  --border-color: transparent;
-
-  padding: 2px 4px;
-  font-size: 20px;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-}
-
-details[open] {
-  background-color: var(--nord02);
-  margin-bottom: 8px;
-}
-
-.details-content {
-  padding: 12px 16px;
-  gap: 16px;
-  color: var(--nord05);
-}
-
-details a {
-  color: var(--nord07);
-}
-
-details a:hover {
-  color: var(--nord0F);
-}
-
-.button a {
-  font-size: 20px;
-  text-decoration: none;
-  border: 1px solid var(--nord0D);
-  color: var(--nord0D);
-  display: inline-block;
-  margin-top: 8px;
-  padding: 2px 8px;
-  border-radius: 4px;
-  justify-self: start;
-}
-
-.button a:hover {
-  background-color: var(--nord0F);
-  border-color: var(--nord0F);
-  color: var(--nord01);
-}
+    .card {
+        border: 1px solid var(--base02);
+    }
 </style>
