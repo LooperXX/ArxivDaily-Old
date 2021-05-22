@@ -5,7 +5,7 @@ $('.article-expander__title').replaceWith(function(event) {
     $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
   }
   else{
-    $(this)[0].textContent = "* UPDATED: " + $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+    $(this)[0].textContent = "[Updated] - " + $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
   }
   
   return $(this)
