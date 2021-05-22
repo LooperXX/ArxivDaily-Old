@@ -1,3 +1,5 @@
+timestamp.innerText = new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
+
 Handlebars.registerHelper("cleanTitle", function(title){
   return title.slice(0, title.indexOf(("(arXiv:")))
 })
@@ -11,6 +13,3 @@ document.onkeydown=function(e){
     return false;
   }
 }
-
-const timestamp = document.getElementById("build-timestamp");
-timestamp.innerText = new Date(timestamp.getAttribute("datetime")).toLocaleString();
