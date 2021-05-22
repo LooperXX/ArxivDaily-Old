@@ -1,7 +1,8 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
 $('.article-expander__title').replaceWith(function(event) {
-  $(this).textContent = $(this).textContent.slice(0, $(this).textContent.indexOf(("(arXiv:")));
+  $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+  return $(this)
 });
 
 // function cleanTitle(event){
