@@ -8,7 +8,7 @@ document.onkeydown=function(e){
   }
 }
 
-function unescapeHTML(a){
+Handlebars.registerHelper('unescapeHTML', function (a) {
   a = "" + a;
   return a.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&apos;/g, "'");
-}
+})
