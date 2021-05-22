@@ -7,3 +7,8 @@ document.onkeydown=function(e){
     return false;
   }
 }
+
+function unescapeHTML(a){
+  a = "" + a;
+  return a.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&apos;/g, "'");
+}
