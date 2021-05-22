@@ -139,6 +139,11 @@ body {
     border-radius: 4px;
 }
 
+.article-authors {
+    font-size: var(--font-size-m);
+    padding-left: 8px;
+}
+
 .article-expander__title {
     color: var(--article-title-color);
     font-size: var(--font-size-m);
