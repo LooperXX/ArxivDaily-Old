@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
-    <title>osmos::feed</title>
-    <updated>2021-05-22T03:38:44.874Z</updated>
+    <title>ArxivDaily</title>
+    <updated>2021-05-22T05:19:38.359Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA["Subverting the Jewtocracy": Online Antisemitism Detection Using Multimodal Deep Learning. (arXiv:2104.05947v2 [cs.MM] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2104.05947</id>
+        <link href="http://arxiv.org/abs/2104.05947"/>
+        <updated>2021-05-22T05:19:38.159Z</updated>
+        <summary type="html"><![CDATA[The exponential rise of online social media has enabled the creation,
+distribution, and consumption of information at an unprecedented rate. However,
+it has also led to the burgeoning of various forms of online abuse. Increasing
+cases of online antisemitism have become one of the major concerns because of
+its socio-political consequences. Unlike other major forms of online abuse like
+racism, sexism, etc., online antisemitism has not been studied much from a
+machine learning perspective. To the best of our k…]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Chandra_M/0/1/0/all/0/1"&gt;Mohit Chandra&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Pailla_D/0/1/0/all/0/1"&gt;Dheeraj Pailla&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Bhatia_H/0/1/0/all/0/1"&gt;Himanshu Bhatia&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Sanchawala_A/0/1/0/all/0/1"&gt;Aadilmehdi Sanchawala&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Gupta_M/0/1/0/all/0/1"&gt;Manish Gupta&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Shrivastava_M/0/1/0/all/0/1"&gt;Manish Shrivastava&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Kumaraguru_P/0/1/0/all/0/1"&gt;Ponnurangam Kumaraguru&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Decade Survey of Content Based Image Retrieval using Deep Learning. (arXiv:2012.00641v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2012.00641</id>
+        <link href="http://arxiv.org/abs/2012.00641"/>
+        <updated>2021-05-22T05:19:38.125Z</updated>
+        <summary type="html"><![CDATA[The content based image retrieval aims to find the similar images from a
+large scale dataset against a query image. Generally, the similarity between
+the representative features of the query image and dataset images is used to
+rank the images for retrieval. In early days, various hand designed feature
+descriptors have been investigated based on the visual cues such as color,
+texture, shape, etc. that represent the images. However, the deep learning has
+emerged as a dominating alternative of hand-designed fe…]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Dubey_S/0/1/0/all/0/1"&gt;Shiv Ram Dubey&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[BodyPressure -- Inferring Body Pose and Contact Pressure from a Depth Image. (arXiv:2105.09936v1 [cs.CV])]]></title>
         <id>http://arxiv.org/abs/2105.09936</id>

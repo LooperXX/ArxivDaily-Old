@@ -474,6 +474,31 @@
       ]
     },
     {
+      "title": "cs.MM updates on arXiv.org",
+      "feedUrl": "http://arxiv.org/rss/cs.MM",
+      "siteUrl": "http://arxiv.org/",
+      "articles": [
+        {
+          "id": "http://arxiv.org/abs/2104.05947",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Chandra_M/0/1/0/all/0/1\">Mohit Chandra</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Pailla_D/0/1/0/all/0/1\">Dheeraj Pailla</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bhatia_H/0/1/0/all/0/1\">Himanshu Bhatia</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sanchawala_A/0/1/0/all/0/1\">Aadilmehdi Sanchawala</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Gupta_M/0/1/0/all/0/1\">Manish Gupta</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shrivastava_M/0/1/0/all/0/1\">Manish Shrivastava</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kumaraguru_P/0/1/0/all/0/1\">Ponnurangam Kumaraguru</a>",
+          "description": "The exponential rise of online social media has enabled the creation,\ndistribution, and consumption of information at an unprecedented rate. However,\nit has also led to the burgeoning of various forms of online abuse. Increasing\ncases of online antisemitism have become one of the major concerns because of\nits socio-political consequences. Unlike other major forms of online abuse like\nracism, sexism, etc., online antisemitism has not been studied much from a\nmachine learning perspective. To the best of our k…",
+          "link": "http://arxiv.org/abs/2104.05947",
+          "publishedOn": "2021-05-22T05:19:38.159Z",
+          "wordCount": 668,
+          "title": "\"Subverting the Jewtocracy\": Online Antisemitism Detection Using Multimodal Deep Learning. (arXiv:2104.05947v2 [cs.MM] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2012.00641",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Dubey_S/0/1/0/all/0/1\">Shiv Ram Dubey</a>",
+          "description": "The content based image retrieval aims to find the similar images from a\nlarge scale dataset against a query image. Generally, the similarity between\nthe representative features of the query image and dataset images is used to\nrank the images for retrieval. In early days, various hand designed feature\ndescriptors have been investigated based on the visual cues such as color,\ntexture, shape, etc. that represent the images. However, the deep learning has\nemerged as a dominating alternative of hand-designed fe…",
+          "link": "http://arxiv.org/abs/2012.00641",
+          "publishedOn": "2021-05-22T05:19:38.125Z",
+          "wordCount": 678,
+          "title": "A Decade Survey of Content Based Image Retrieval using Deep Learning. (arXiv:2012.00641v2 [cs.CV] UPDATED)"
+        }
+      ]
+    },
+    {
       "title": "cs.CV updates on arXiv.org",
       "feedUrl": "http://arxiv.org/rss/cs.CV",
       "siteUrl": "http://arxiv.org/",

@@ -2,15 +2,75 @@
 <html lang="en">
 
 <head>
-  <title>osmos::feed</title>
+  <title>ArxivDaily</title>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="robots" content="noindex, nofollow" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="alternate" type="application/rss+xml" title="osmos::feed" href="feed.atom" />
+  <link rel="alternate" type="application/rss+xml" title="ArxivDaily" href="feed.atom" />
   <link href="index.css" rel="stylesheet" />
-  <!-- %before-head-end.html% -->
+  <style>
+  :root {
+    /**
+     * Solarized Light
+     * Ethan Schoonover (modified by aramisgithub)
+     */
+    --base00: #fdf6e3;
+    --base01: #eee8d5;
+    --base02: #93a1a1;
+    --base03: #839496;
+    --base04: #657b83;
+    --base05: #586e75;
+    --base06: #073642;
+    --base07: #002b36;
+    --base08: #dc322f;
+    --base09: #cb4b16;
+    --base0A: #b58900;
+    --base0B: #859900;
+    --base0C: #2aa198;
+    --base0D: #268bd2;
+    --base0E: #6c71c4;
+    --base0F: #d33682;
+
+    /**
+    * Typograph
+    */
+    --font-size-m: 1.6rem;
+    --font-size-s: 1.4rem;
+
+    /**
+    * Components
+    */
+    --body-color: var(--base07);
+    --body-bg: var(--base01);
+
+    --source-name-color: var(--base0D);
+    --source-name-hover-color: var(--base0D);
+
+    --article-title-color: var(--base05);
+    --article-title-hover-color: var(--base0E);
+    --article-summary-hover-color: var(--base0D);
+
+    --accordion-content-rail-color: var(--base01);
+    --accordion-content-hover-rail-color: var(--base0D);
+    --accordion-title-marker-color: var(--base01);
+    --accordion-title-hover-marker-color: var(--base0E);
+
+    --card-bg: var(--base00);
+    --card-shadow: none;
+    --card-radius: 0;
+    --footer-link-hover-color: var(--base0D);
+  }
+
+  .daily-heading {
+    padding-left: 0;
+  }
+
+  .card {
+    border: 1px solid var(--base02);
+  }
+</style>
 </head>
 
 <body>
@@ -4511,11 +4571,51 @@ discovered top architectures, thus increasingly focusing on importan…</span>
             </article>
         </section>
       </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://arxiv.org/">cs.MM updates on arXiv.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">&quot;Subverting the Jewtocracy&quot;: Online Antisemitism Detection Using Multimodal Deep Learning. (arXiv:2104.05947v2 [cs.MM] UPDATED)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://arxiv.org/abs/2104.05947">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The exponential rise of online social media has enabled the creation,
+distribution, and consumption of information at an unprecedented rate. However,
+it has also led to the burgeoning of various forms of online abuse. Increasing
+cases of online antisemitism have become one of the major concerns because of
+its socio-political consequences. Unlike other major forms of online abuse like
+racism, sexism, etc., online antisemitism has not been studied much from a
+machine learning perspective. To the best of our k…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A Decade Survey of Content Based Image Retrieval using Deep Learning. (arXiv:2012.00641v2 [cs.CV] UPDATED)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="http://arxiv.org/abs/2012.00641">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The content based image retrieval aims to find the similar images from a
+large scale dataset against a query image. Generally, the similarity between
+the representative features of the query image and dataset images is used to
+rank the images for retrieval. In early days, various hand designed feature
+descriptors have been investigated based on the visual cues such as color,
+texture, shape, etc. that represent the images. However, the deep learning has
+emerged as a dominating alternative of hand-designed fe…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-05-22T03:38:44.852Z">2021-05-22T03:38:44.852Z</time>
+    <time id="build-timestamp" datetime="2021-05-22T05:19:38.329Z">2021-05-22T05:19:38.329Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.7.2</a></span>
   </footer>
   <script src="index.js"></script>
