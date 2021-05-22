@@ -1,6 +1,6 @@
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
-Handlebars.registerHelper("cleanTitle", function(title){
+Handlebars.addHelper("cleanTitle", function(title){
   return title.slice(0, title.indexOf(("(arXiv:")))
 })
 
