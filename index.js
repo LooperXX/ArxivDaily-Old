@@ -2,12 +2,14 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:40:50
- * @LastEditTime: 2021-05-22 21:20:26
+ * @LastEditTime: 2021-05-23 14:42:39
  * @LastEditors: LooperXX
  * @Description: 
  */
+
 document.getElementById("build-timestamp").innerText = "Last Update: " + new Date(document.getElementById("build-timestamp").getAttribute("datetime")).toLocaleString();
 
+// Clean the title for each paper
 $('.article-expander__title').replaceWith(function(event) {
   if ($(this)[0].textContent.indexOf("] UPDATED)") != -1){
     $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
@@ -19,7 +21,7 @@ $('.article-expander__title').replaceWith(function(event) {
   return $(this)
 });
 
-/* Exapand/Collapse with TAB key */
+// Exapand/Collapse with TAB key - From https://github.com/onnyyonn/feed 
 var expanded = false;
 document.onkeydown=function(e){
   if(e.keyCode == 9) {
@@ -28,6 +30,7 @@ document.onkeydown=function(e){
     return false;
   }
 }
+
 // Highlight Keywords
 var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning", "Noah A. Smith"];
 var titles = ["BERT", "GPT","Transformer", "Task-oriented", "Cross-Modal", "Multi-Modal", "Contrastive Learning"];
@@ -38,7 +41,6 @@ function highlight(seletor, name, type){
     className: type
   });
 }
-
 
 for (var i=0;i<authors.length;i++)
 { 
