@@ -1,9 +1,9 @@
 cacheUrl: https://looperxx.github.io/ArxivDaily/cache.json
 sources:
-  - href: http://export.arxiv.org/rss/cs.CL
-  - href: http://export.arxiv.org/rss/cs.IR
-  - href: http://export.arxiv.org/rss/cs.MM
-  - href: http://export.arxiv.org/rss/cs.CV
+  # - href: http://export.arxiv.org/rss/cs.CL
+  # - href: http://export.arxiv.org/rss/cs.IR
+  # - href: http://export.arxiv.org/rss/cs.MM
+  # - href: http://export.arxiv.org/rss/cs.CV
   - href: http://export.arxiv.org/rss/cs.LG
 siteTitle: "ArxivDaily"
 cacheMaxDays: 30
