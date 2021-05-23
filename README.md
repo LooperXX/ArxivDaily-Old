@@ -8,7 +8,7 @@ An RSS feed reader for "ArxivDaily".
 - Display the authors information in the `details`.
 - Distinguish whether the paper is a new submission or an update by prefix `[Updated] - `.
 - Highlight specific `keywords` in the title and authors of the paper.
-  - Modify keywords list and CSS style in `index.js` and `index.css`
+- Customize keywords list in `index.js` and corresponding CSS style in `index.css`.
 
 
 ## Usage
