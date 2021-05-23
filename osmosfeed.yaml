@@ -4,6 +4,6 @@ sources:
   - href: http://export.arxiv.org/rss/cs.IR
   - href: http://export.arxiv.org/rss/cs.MM
   - href: http://export.arxiv.org/rss/cs.CV
-  # - href: http://export.arxiv.org/rss/cs.LG
+  - href: http://export.arxiv.org/rss/cs.LG
 siteTitle: "ArxivDaily"
 cacheMaxDays: 30
