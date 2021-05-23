@@ -2,7 +2,9 @@
 
 An RSS feed reader for "ArxivDaily".
 - Exapand/Collapse with `Tab`  key.
-- Highlight for keywords in the title and authors of the paper
+- Display the authors information in the `details`.
+- Distinguish whether the paper is a new submission or an update by prefix `[Updated] - `.
+- Highlight for keywords in the title and authors of the paper.
   - Modify keywords list and CSS style in `index.js` and `index.css`
 
 > BTW, I don’t know the current front-end world very well 🥲 . I just adopt the relatively basic front-end technology. 

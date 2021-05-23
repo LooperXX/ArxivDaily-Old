@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:40:50
- * @LastEditTime: 2021-05-23 14:42:39
+ * @LastEditTime: 2021-05-23 15:00:22
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -12,10 +12,10 @@ document.getElementById("build-timestamp").innerText = "Last Update: " + new Dat
 // Clean the title for each paper
 $('.article-expander__title').replaceWith(function(event) {
   if ($(this)[0].textContent.indexOf("] UPDATED)") != -1){
-    $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+    $(this)[0].textContent = "[Updated] - " + $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
   }
   else{
-    $(this)[0].textContent = "[Updated] - " + $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
+    $(this)[0].textContent = $(this)[0].textContent.slice(0, $(this)[0].textContent.indexOf(("(arXiv:")));
   }
   
   return $(this)
