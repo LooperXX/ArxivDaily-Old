@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:40:50
- * @LastEditTime: 2021-05-25 10:38:58
+ * @LastEditTime: 2021-05-25 11:16:35
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -37,7 +37,7 @@ var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue 
 var titles_area = ["Task-oriented", "Dialog", "Dialogue", "Cross-Modal", "Multi-Modal", "Contrastive Learning", "Vision-and-Language"];
 var titles_model = ["BERT", "GPT","Transformer"];
 var titles = []
-titles.concat(titles_area,titles_model)
+titles = titles.concat(titles_area,titles_model)
 
 function highlight(seletor, name, type){
   name =  eval('/'+name+'/ig')
