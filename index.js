@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:40:50
- * @LastEditTime: 2021-06-03 11:46:57
+ * @LastEditTime: 2021-06-04 12:55:02
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -32,7 +32,7 @@ document.onkeydown=function(e){
 }
 
 // Highlight Keywords
-var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning", "Noah A. Smith"];
+var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Christopher Manning", "Noah A. Smith", "Jason Eisner", "Percy Liang"];
 
 var titles_area = ["Task-oriented", "Conversation", "Dialogue", "Dialog", "Cross-Modal", "Multi-Modal", "Contrastive Learning", "Vision-and-Language", "V&L", "Pre-train", "Pretrain"];
 var titles_model = ["BERT", "GPT","Transformer"];
