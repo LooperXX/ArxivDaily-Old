@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-07T22:33:05.543Z</updated>
+    <updated>2021-06-07T23:29:40.207Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[About Explicit Variance Minimization: Training Neural Networks for Medical Imaging With Limited Data Annotations. (arXiv:2105.14117v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2105.14117</id>
+        <link href="http://arxiv.org/abs/2105.14117"/>
+        <updated>2021-06-07T23:29:40.150Z</updated>
+        <summary type="html"><![CDATA[Self-supervised learning methods for computer vision have demonstrated the
+effectiveness of pre-training feature representations, resulting in
+well-generalizing Deep Neural Networks, even if the annotated data are limited.
+However, representation learning techniques require a significant amount of
+time for model training, with most of it time spent on precise hyper-parameter
+optimization and selection of augmentation techniques. We hypothesized that if
+the annotated dataset has enough morphological diversity to capture the general
+population's as is common in medical imaging, for example, due to conserved
+similarities of tissue mythologies, the variance error of the trained model is
+the prevalent component of the Bias-Variance Trade-off. We propose the Variance
+Aware Training (VAT) method that exploits this property by introducing the
+variance error into the model loss function, i.e., enabling minimizing the
+variance explicitly. Additionally, we provide the theoretical formulation and
+proof of the proposed method to aid in interpreting the approach. Our method
+requires selecting only one hyper-parameter and was able to match or improve
+the state-of-the-art performance of self-supervised methods while achieving an
+order of magnitude reduction in the GPU training time. We validated VAT on
+three medical imaging datasets from diverse domains and various learning
+objectives. These included a Magnetic Resonance Imaging (MRI) dataset for the
+heart semantic segmentation (MICCAI 2017 ACDC challenge), fundus photography
+dataset for ordinary regression of diabetic retinopathy progression (Kaggle
+2019 APTOS Blindness Detection challenge), and classification of
+histopathologic scans of lymph node sections (PatchCamelyon dataset).]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Shubin_D/0/1/0/all/0/1"&gt;Dmitrii Shubin&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Eytan_D/0/1/0/all/0/1"&gt;Danny Eytan&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Goodfellow_S/0/1/0/all/0/1"&gt;Sebastian D. Goodfellow&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[More Is Better: An Analysis of Instance Quantity/Quality Trade-off in Rehearsal-based Continual Learning. (arXiv:2105.14106v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2105.14106</id>
+        <link href="http://arxiv.org/abs/2105.14106"/>
+        <updated>2021-06-07T23:29:40.127Z</updated>
+        <summary type="html"><![CDATA[The design of machines and algorithms capable of learning in a dynamically
+changing environment has become an increasingly topical problem with the
+increase of the size and heterogeneity of data available to learning systems.
+As a consequence, the key issue of Continual Learning has become that of
+addressing the stability-plasticity dilemma of connectionist systems, as they
+need to adapt their model without forgetting previously acquired knowledge.
+Within this context, rehearsal-based methods i.e., solutions in where the
+learner exploits memory to revisit past data, has proven to be very effective,
+leading to performance at the state-of-the-art. In our study, we propose an
+analysis of the memory quantity/quality trade-off adopting various data
+reduction approaches to increase the number of instances storable in memory. In
+particular, we investigate complex instance compression techniques such as deep
+encoders, but also trivial approaches such as image resizing and linear
+dimensionality reduction. Our findings suggest that the optimal trade-off is
+severely skewed toward instance quantity, where rehearsal approaches with
+several heavily compressed instances easily outperform state-of-the-art
+approaches with the same amount of memory at their disposal. Further, in high
+memory configurations, deep approaches extracting spatial structure combined
+with extreme resizing (of the order of $8\times8$ images) yield the best
+results, while in memory-constrained configurations where deep approaches
+cannot be used due to their memory requirement in training, Extreme Learning
+Machines (ELM) offer a clear advantage.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Pelosin_F/0/1/0/all/0/1"&gt;Francesco Pelosin&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Torsello_A/0/1/0/all/0/1"&gt;Andrea Torsello&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Near-optimal Offline and Streaming Algorithms for Learning Non-Linear Dynamical Systems. (arXiv:2105.11558v2 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2105.11558</id>
