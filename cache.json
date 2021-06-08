@@ -6,6 +6,33 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2106.00641",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Fu_J/0/1/0/all/0/1\">Jinlan Fu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Huang_X/0/1/0/all/0/1\">Xuanjing Huang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_P/0/1/0/all/0/1\">Pengfei Liu</a>",
+          "description": "Recent years have seen the paradigm shift of Named Entity Recognition (NER)\nsystems from sequence labeling to span prediction. Despite its preliminary\neffectiveness, the span prediction model's architectural bias has not been\nfully understood. In this paper, we first investigate the strengths and\nweaknesses when the span prediction model is used for named entity recognition\ncompared with the sequence labeling framework and how to further improve it,\nwhich motivates us to make complementary advantages of systems based on\ndifferent paradigms. We then reveal that span prediction, simultaneously, can\nserve as a system combiner to re-recognize named entities from different\nsystems' outputs. We experimentally implement 154 systems on 11 datasets,\ncovering three languages, comprehensive results show the effectiveness of span\nprediction models that both serve as base NER systems and system combiners. We\nmake all code and datasets available: \\url{https://github.com/neulab/spanner},\nas well as an online system demo: \\url{this http URL}. Our model also has\nbeen deployed into the ExplainaBoard platform, which allows users to flexibly\nperform a system combination of top-scoring systems in an interactive way:\n\\url{this http URL}.",
+          "link": "http://arxiv.org/abs/2106.00641",
+          "publishedOn": "2021-06-08T22:44:24.222Z",
+          "wordCount": 625,
+          "title": "SpanNER: Named Entity Re-/Recognition as Span Prediction. (arXiv:2106.00641v2 [cs.CL] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00590",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1\">Jialu Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_T/0/1/0/all/0/1\">Tianqi Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yu_C/0/1/0/all/0/1\">Cong Yu</a>",
+          "description": "Effectively modeling text-rich fresh content such as news articles at\ndocument-level is a challenging problem. To ensure a content-based model\ngeneralize well to a broad range of applications, it is critical to have a\ntraining dataset that is large beyond the scale of human labels while achieving\ndesired quality. In this work, we address those two challenges by proposing a\nnovel approach to mine semantically-relevant fresh documents, and their topic\nlabels, with little human supervision. Meanwhile, we design a multitask model\ncalled NewsEmbed that alternatively trains a contrastive learning with a\nmulti-label classification to derive a universal document encoder. We show that\nthe proposed approach can provide billions of high quality organic training\nexamples and can be naturally extended to multilingual setting where texts in\ndifferent languages are encoded in the same semantic space. We experimentally\ndemonstrate NewsEmbed's competitive performance across multiple natural\nlanguage understanding tasks, both supervised and unsupervised.",
+          "link": "http://arxiv.org/abs/2106.00590",
+          "publishedOn": "2021-06-08T22:44:24.202Z",
+          "wordCount": 603,
+          "title": "NewsEmbed: Modeling News through Pre-trained Document Representations. (arXiv:2106.00590v2 [cs.CL] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00459",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Nadgeri_A/0/1/0/all/0/1\">Abhishek Nadgeri</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bastos_A/0/1/0/all/0/1\">Anson Bastos</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Singh_K/0/1/0/all/0/1\">Kuldeep Singh</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Mulang_I/0/1/0/all/0/1\">Isaiah Onando Mulang&#x27;</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hoffart_J/0/1/0/all/0/1\">Johannes Hoffart</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shekarpour_S/0/1/0/all/0/1\">Saeedeh Shekarpour</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Saraswat_V/0/1/0/all/0/1\">Vijay Saraswat</a>",
+          "description": "We present a novel method for relation extraction (RE) from a single\nsentence, mapping the sentence and two given entities to a canonical fact in a\nknowledge graph (KG). Especially in this presumed sentential RE setting, the\ncontext of a single sentence is often sparse. This paper introduces the KGPool\nmethod to address this sparsity, dynamically expanding the context with\nadditional facts from the KG. It learns the representation of these facts\n(entity alias, entity descriptions, etc.) using neural methods, supplementing\nthe sentential context. Unlike existing methods that statically use all\nexpanded facts, KGPool conditions this expansion on the sentence. We study the\nefficacy of KGPool by evaluating it with different neural models and KGs\n(Wikidata and NYT Freebase). Our experimental evaluation on standard datasets\nshows that by feeding the KGPool representation into a Graph Neural Network,\nthe overall method is significantly more accurate than state-of-the-art\nmethods.",
+          "link": "http://arxiv.org/abs/2106.00459",
+          "publishedOn": "2021-06-08T22:44:23.904Z",
+          "wordCount": 606,
+          "title": "KGPool: Dynamic Knowledge Graph Context Selection for Relation Extraction. (arXiv:2106.00459v2 [cs.CL] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2105.13868",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Ren_S/0/1/0/all/0/1\">Shuhuai Ren</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lin_J/0/1/0/all/0/1\">Junyang Lin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhao_G/0/1/0/all/0/1\">Guangxiang Zhao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Men_R/0/1/0/all/0/1\">Rui Men</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_A/0/1/0/all/0/1\">An Yang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhou_J/0/1/0/all/0/1\">Jingren Zhou</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sun_X/0/1/0/all/0/1\">Xu Sun</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1\">Hongxia Yang</a>",
           "description": "Despite the achievements of large-scale multimodal pre-training approaches,\ncross-modal retrieval, e.g., image-text retrieval, remains a challenging task.\nTo bridge the semantic gap between the two modalities, previous studies mainly\nfocus on word-region alignment at the object level, lacking the matching\nbetween the linguistic relation among the words and the visual relation among\nthe regions. The neglect of such relation consistency impairs the\ncontextualized representation of image-text pairs and hinders the model\nperformance and the interpretability. In this paper, we first propose a novel\nmetric, Intra-modal Self-attention Distance (ISD), to quantify the relation\nconsistency by measuring the semantic distance between linguistic and visual\nrelations. In response, we present Inter-modal Alignment on Intra-modal\nSelf-attentions (IAIS), a regularized training method to optimize the ISD and\ncalibrate intra-modal self-attentions from the two modalities mutually via\ninter-modal alignment. The IAIS regularizer boosts the performance of\nprevailing models on Flickr30k and MS COCO datasets by a considerable margin,\nwhich demonstrates the superiority of our approach.",
@@ -2875,6 +2902,15 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2106.00590",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1\">Jialu Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_T/0/1/0/all/0/1\">Tianqi Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yu_C/0/1/0/all/0/1\">Cong Yu</a>",
+          "description": "Effectively modeling text-rich fresh content such as news articles at\ndocument-level is a challenging problem. To ensure a content-based model\ngeneralize well to a broad range of applications, it is critical to have a\ntraining dataset that is large beyond the scale of human labels while achieving\ndesired quality. In this work, we address those two challenges by proposing a\nnovel approach to mine semantically-relevant fresh documents, and their topic\nlabels, with little human supervision. Meanwhile, we design a multitask model\ncalled NewsEmbed that alternatively trains a contrastive learning with a\nmulti-label classification to derive a universal document encoder. We show that\nthe proposed approach can provide billions of high quality organic training\nexamples and can be naturally extended to multilingual setting where texts in\ndifferent languages are encoded in the same semantic space. We experimentally\ndemonstrate NewsEmbed's competitive performance across multiple natural\nlanguage understanding tasks, both supervised and unsupervised.",
+          "link": "http://arxiv.org/abs/2106.00590",
+          "publishedOn": "2021-06-08T22:44:23.879Z",
+          "wordCount": 603,
+          "title": "NewsEmbed: Modeling News through Pre-trained Document Representations. (arXiv:2106.00590v2 [cs.CL] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2105.13868",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Ren_S/0/1/0/all/0/1\">Shuhuai Ren</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lin_J/0/1/0/all/0/1\">Junyang Lin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhao_G/0/1/0/all/0/1\">Guangxiang Zhao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Men_R/0/1/0/all/0/1\">Rui Men</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_A/0/1/0/all/0/1\">An Yang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhou_J/0/1/0/all/0/1\">Jingren Zhou</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sun_X/0/1/0/all/0/1\">Xu Sun</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1\">Hongxia Yang</a>",
           "description": "Despite the achievements of large-scale multimodal pre-training approaches,\ncross-modal retrieval, e.g., image-text retrieval, remains a challenging task.\nTo bridge the semantic gap between the two modalities, previous studies mainly\nfocus on word-region alignment at the object level, lacking the matching\nbetween the linguistic relation among the words and the visual relation among\nthe regions. The neglect of such relation consistency impairs the\ncontextualized representation of image-text pairs and hinders the model\nperformance and the interpretability. In this paper, we first propose a novel\nmetric, Intra-modal Self-attention Distance (ISD), to quantify the relation\nconsistency by measuring the semantic distance between linguistic and visual\nrelations. In response, we present Inter-modal Alignment on Intra-modal\nSelf-attentions (IAIS), a regularized training method to optimize the ISD and\ncalibrate intra-modal self-attentions from the two modalities mutually via\ninter-modal alignment. The IAIS regularizer boosts the performance of\nprevailing models on Flickr30k and MS COCO datasets by a considerable margin,\nwhich demonstrates the superiority of our approach.",
@@ -3338,6 +3374,15 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.CV",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2106.00596",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Nguyen_V/0/1/0/all/0/1\">Van-Quang Nguyen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Suganuma_M/0/1/0/all/0/1\">Masanori Suganuma</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Okatani_T/0/1/0/all/0/1\">Takayuki Okatani</a>",
+          "description": "There is a growing interest in the community in making an embodied AI agent\nperform a complicated task while interacting with an environment following\nnatural language directives. Recent studies have tackled the problem using\nALFRED, a well-designed dataset for the task, but achieved only very low\naccuracy. This paper proposes a new method, which outperforms the previous\nmethods by a large margin. It is based on a combination of several new ideas.\nOne is a two-stage interpretation of the provided instructions. The method\nfirst selects and interprets an instruction without using visual information,\nyielding a tentative action sequence prediction. It then integrates the\nprediction with the visual information etc., yielding the final prediction of\nan action and an object. As the object's class to interact is identified in the\nfirst stage, it can accurately select the correct object from the input image.\nMoreover, our method considers multiple egocentric views of the environment and\nextracts essential information by applying hierarchical attention conditioned\non the current instruction. This contributes to the accurate prediction of\nactions for navigation. A preliminary version of the method won the ALFRED\nChallenge 2020. The current version achieves the unseen environment's success\nrate of 4.45% with a single view, which is further improved to 8.37% with\nmultiple views.",
+          "link": "http://arxiv.org/abs/2106.00596",
+          "publishedOn": "2021-06-08T22:44:24.609Z",
+          "wordCount": 685,
+          "title": "Look Wide and Interpret Twice: Improving Performance on Interactive Instruction-following Tasks. (arXiv:2106.00596v2 [cs.CV] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2012.03515",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Bukchin_G/0/1/0/all/0/1\">Guy Bukchin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Schwartz_E/0/1/0/all/0/1\">Eli Schwartz</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Saenko_K/0/1/0/all/0/1\">Kate Saenko</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shahar_O/0/1/0/all/0/1\">Ori Shahar</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Feris_R/0/1/0/all/0/1\">Rogerio Feris</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Giryes_R/0/1/0/all/0/1\">Raja Giryes</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Karlinsky_L/0/1/0/all/0/1\">Leonid Karlinsky</a>",
@@ -6306,6 +6351,51 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.LG",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2106.00526",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Niu_W/0/1/0/all/0/1\">Wei Niu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kong_Z/0/1/0/all/0/1\">Zhenglun Kong</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yuan_G/0/1/0/all/0/1\">Geng Yuan</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jiang_W/0/1/0/all/0/1\">Weiwen Jiang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Guan_J/0/1/0/all/0/1\">Jiexiong Guan</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ding_C/0/1/0/all/0/1\">Caiwen Ding</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhao_P/0/1/0/all/0/1\">Pu Zhao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_S/0/1/0/all/0/1\">Sijia Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ren_B/0/1/0/all/0/1\">Bin Ren</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1\">Yanzhi Wang</a>",
+          "description": "Transformer-based deep learning models have increasingly demonstrated high\naccuracy on many natural language processing (NLP) tasks. In this paper, we\npropose a compression-compilation co-design framework that can guarantee the\nidentified model to meet both resource and real-time specifications of mobile\ndevices. Our framework applies a compiler-aware neural architecture\noptimization method (CANAO), which can generate the optimal compressed model\nthat balances both accuracy and latency. We are able to achieve up to 7.8x\nspeedup compared with TensorFlow-Lite with only minor accuracy loss. We present\ntwo types of BERT applications on mobile devices: Question Answering (QA) and\nText Generation. Both can be executed in real-time with latency as low as 45ms.\nVideos for demonstrating the framework can be found on\nhttps://www.youtube.com/watch?v=_WIRvK_2PZI",
+          "link": "http://arxiv.org/abs/2106.00526",
+          "publishedOn": "2021-06-08T22:44:25.107Z",
+          "wordCount": 587,
+          "title": "A Compression-Compilation Framework for On-mobile Real-time BERT Applications. (arXiv:2106.00526v2 [cs.LG] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00590",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1\">Jialu Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_T/0/1/0/all/0/1\">Tianqi Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yu_C/0/1/0/all/0/1\">Cong Yu</a>",
+          "description": "Effectively modeling text-rich fresh content such as news articles at\ndocument-level is a challenging problem. To ensure a content-based model\ngeneralize well to a broad range of applications, it is critical to have a\ntraining dataset that is large beyond the scale of human labels while achieving\ndesired quality. In this work, we address those two challenges by proposing a\nnovel approach to mine semantically-relevant fresh documents, and their topic\nlabels, with little human supervision. Meanwhile, we design a multitask model\ncalled NewsEmbed that alternatively trains a contrastive learning with a\nmulti-label classification to derive a universal document encoder. We show that\nthe proposed approach can provide billions of high quality organic training\nexamples and can be naturally extended to multilingual setting where texts in\ndifferent languages are encoded in the same semantic space. We experimentally\ndemonstrate NewsEmbed's competitive performance across multiple natural\nlanguage understanding tasks, both supervised and unsupervised.",
+          "link": "http://arxiv.org/abs/2106.00590",
+          "publishedOn": "2021-06-08T22:44:25.008Z",
+          "wordCount": 603,
+          "title": "NewsEmbed: Modeling News through Pre-trained Document Representations. (arXiv:2106.00590v2 [cs.CL] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00444",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Lattimore_T/0/1/0/all/0/1\">Tor Lattimore</a>",
+          "description": "We analyse adversarial bandit convex optimisation with an adversary that is\nrestricted to playing functions of the form $f_t(x) = g_t(\\langle x,\n\\theta\\rangle)$ for convex $g_t : \\mathbb R \\to \\mathbb R$ and unknown $\\theta\n\\in \\mathbb R^d$ that is homogeneous over time. We provide a short\ninformation-theoretic proof that the minimax regret is at most $O(d \\sqrt{n}\n\\log(n \\operatorname{diam}(\\mathcal K)))$ where $n$ is the number of\ninteractions, $d$ the dimension and $\\operatorname{diam}(\\mathcal K)$ is the\ndiameter of the constraint set.",
+          "link": "http://arxiv.org/abs/2106.00444",
+          "publishedOn": "2021-06-08T22:44:24.996Z",
+          "wordCount": 535,
+          "title": "Minimax Regret for Bandit Convex Optimisation of Ridge Functions. (arXiv:2106.00444v2 [cs.LG] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00421",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1\">Yang Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Shen_Y/0/1/0/all/0/1\">Yu Shen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_W/0/1/0/all/0/1\">Wentao Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1\">Yuanwei Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jiang_H/0/1/0/all/0/1\">Huaijun Jiang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_M/0/1/0/all/0/1\">Mingchao Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jiang_J/0/1/0/all/0/1\">Jiawei Jiang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Gao_J/0/1/0/all/0/1\">Jinyang Gao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wu_W/0/1/0/all/0/1\">Wentao Wu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_Z/0/1/0/all/0/1\">Zhi Yang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_C/0/1/0/all/0/1\">Ce Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cui_B/0/1/0/all/0/1\">Bin Cui</a>",
+          "description": "Black-box optimization (BBO) has a broad range of applications, including\nautomatic machine learning, engineering, physics, and experimental design.\nHowever, it remains a challenge for users to apply BBO methods to their\nproblems at hand with existing software packages, in terms of applicability,\nperformance, and efficiency. In this paper, we build OpenBox, an open-source\nand general-purpose BBO service with improved usability. The modular design\nbehind OpenBox also facilitates flexible abstraction and optimization of basic\nBBO components that are common in other existing systems. OpenBox is\ndistributed, fault-tolerant, and scalable. To improve efficiency, OpenBox\nfurther utilizes \"algorithm agnostic\" parallelization and transfer learning.\nOur experimental results demonstrate the effectiveness and efficiency of\nOpenBox compared to existing systems.",
+          "link": "http://arxiv.org/abs/2106.00421",
+          "publishedOn": "2021-06-08T22:44:24.840Z",
+          "wordCount": 589,
+          "title": "OpenBox: A Generalized Black-box Optimization Service. (arXiv:2106.00421v2 [cs.LG] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00106",
+          "author": "<a href=\"http://arxiv.org/find/math/1/au:+Gonzalez_E/0/1/0/all/0/1\">Efrain Gonzalez</a>, <a href=\"http://arxiv.org/find/math/1/au:+Abudia_M/0/1/0/all/0/1\">Moad Abudia</a>, <a href=\"http://arxiv.org/find/math/1/au:+Jury_M/0/1/0/all/0/1\">Michael Jury</a>, <a href=\"http://arxiv.org/find/math/1/au:+Kamalapurkar_R/0/1/0/all/0/1\">Rushikesh Kamalapurkar</a>, <a href=\"http://arxiv.org/find/math/1/au:+Rosenfeld_J/0/1/0/all/0/1\">Joel A. Rosenfeld</a>",
+          "description": "This article addresses several longstanding misconceptions concerning Koopman\noperators, including the existence of lattices of eigenfunctions, common\neigenfunctions between Koopman operators, and boundedness and compactness of\nKoopman operators, among others. Counterexamples are provided for each\nmisconception. This manuscript also proves that the Gaussian RBF's native space\nonly supports bounded Koopman operator corresponding to affine dynamics, which\nshows that the assumption of boundedness is very limiting. A framework for DMD\nis presented that requires only densely defined Koopman operators over\nreproducing kernel Hilbert spaces, and the effectiveness of this approach is\ndemonstrated through reconstruction examples.",
+          "link": "http://arxiv.org/abs/2106.00106",
+          "publishedOn": "2021-06-08T22:44:24.822Z",
+          "wordCount": 535,
+          "title": "Anti-Koopmanism. (arXiv:2106.00106v2 [math.FA] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2106.02985",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1\">Jun-Kun Wang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lin_C/0/1/0/all/0/1\">Chi-Heng Lin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Abernethy_J/0/1/0/all/0/1\">Jacob Abernethy</a>",
