@@ -6,6 +6,15 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2105.11601",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Li_L/0/1/0/all/0/1\">Lei Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1\">Yongfeng Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1\">Li Chen</a>",
+          "description": "Personalization of natural language generation plays a vital role in a large\nspectrum of tasks, such as explainable recommendation, review summarization and\ndialog systems. In these tasks, user and item IDs are important identifiers for\npersonalization. Transformer, which is demonstrated with strong language\nmodeling capability, however, is not personalized and fails to make use of the\nuser and item IDs since the ID tokens are not even in the same semantic space\nas the words. To address this problem, we present a PErsonalized Transformer\nfor Explainable Recommendation (PETER), on which we design a simple and\neffective learning objective that utilizes the IDs to predict the words in the\ntarget explanation, so as to endow the IDs with linguistic meanings and to\nachieve personalized Transformer. Besides generating explanations, PETER can\nalso make recommendations, which makes it a unified model for the whole\nrecommendation-explanation pipeline. Extensive experiments show that our small\nunpretrained model outperforms fine-tuned BERT on the generation task, in terms\nof both effectiveness and efficiency, which highlights the importance and the\nnice utility of our design.",
+          "link": "http://arxiv.org/abs/2105.11601",
+          "publishedOn": "2021-06-09T00:28:49.118Z",
+          "wordCount": 641,
+          "title": "Personalized Transformer for Explainable Recommendation. (arXiv:2105.11601v2 [cs.IR] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2106.00641",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Fu_J/0/1/0/all/0/1\">Jinlan Fu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Huang_X/0/1/0/all/0/1\">Xuanjing Huang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_P/0/1/0/all/0/1\">Pengfei Liu</a>",
           "description": "Recent years have seen the paradigm shift of Named Entity Recognition (NER)\nsystems from sequence labeling to span prediction. Despite its preliminary\neffectiveness, the span prediction model's architectural bias has not been\nfully understood. In this paper, we first investigate the strengths and\nweaknesses when the span prediction model is used for named entity recognition\ncompared with the sequence labeling framework and how to further improve it,\nwhich motivates us to make complementary advantages of systems based on\ndifferent paradigms. We then reveal that span prediction, simultaneously, can\nserve as a system combiner to re-recognize named entities from different\nsystems' outputs. We experimentally implement 154 systems on 11 datasets,\ncovering three languages, comprehensive results show the effectiveness of span\nprediction models that both serve as base NER systems and system combiners. We\nmake all code and datasets available: \\url{https://github.com/neulab/spanner},\nas well as an online system demo: \\url{this http URL}. Our model also has\nbeen deployed into the ExplainaBoard platform, which allows users to flexibly\nperform a system combination of top-scoring systems in an interactive way:\n\\url{this http URL}.",
@@ -6351,6 +6360,15 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.LG",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2105.11601",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Li_L/0/1/0/all/0/1\">Lei Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1\">Yongfeng Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1\">Li Chen</a>",
+          "description": "Personalization of natural language generation plays a vital role in a large\nspectrum of tasks, such as explainable recommendation, review summarization and\ndialog systems. In these tasks, user and item IDs are important identifiers for\npersonalization. Transformer, which is demonstrated with strong language\nmodeling capability, however, is not personalized and fails to make use of the\nuser and item IDs since the ID tokens are not even in the same semantic space\nas the words. To address this problem, we present a PErsonalized Transformer\nfor Explainable Recommendation (PETER), on which we design a simple and\neffective learning objective that utilizes the IDs to predict the words in the\ntarget explanation, so as to endow the IDs with linguistic meanings and to\nachieve personalized Transformer. Besides generating explanations, PETER can\nalso make recommendations, which makes it a unified model for the whole\nrecommendation-explanation pipeline. Extensive experiments show that our small\nunpretrained model outperforms fine-tuned BERT on the generation task, in terms\nof both effectiveness and efficiency, which highlights the importance and the\nnice utility of our design.",
+          "link": "http://arxiv.org/abs/2105.11601",
+          "publishedOn": "2021-06-09T00:28:49.163Z",
+          "wordCount": 641,
+          "title": "Personalized Transformer for Explainable Recommendation. (arXiv:2105.11601v2 [cs.IR] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2106.00526",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Niu_W/0/1/0/all/0/1\">Wei Niu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kong_Z/0/1/0/all/0/1\">Zhenglun Kong</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yuan_G/0/1/0/all/0/1\">Geng Yuan</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Jiang_W/0/1/0/all/0/1\">Weiwen Jiang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Guan_J/0/1/0/all/0/1\">Jiexiong Guan</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ding_C/0/1/0/all/0/1\">Caiwen Ding</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhao_P/0/1/0/all/0/1\">Pu Zhao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_S/0/1/0/all/0/1\">Sijia Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ren_B/0/1/0/all/0/1\">Bin Ren</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wang_Y/0/1/0/all/0/1\">Yanzhi Wang</a>",

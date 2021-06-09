@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-08T23:42:06.936Z</updated>
+    <updated>2021-06-09T00:28:49.233Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Personalized Transformer for Explainable Recommendation. (arXiv:2105.11601v2 [cs.IR] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2105.11601</id>
+        <link href="http://arxiv.org/abs/2105.11601"/>
+        <updated>2021-06-09T00:28:49.163Z</updated>
+        <summary type="html"><![CDATA[Personalization of natural language generation plays a vital role in a large
+spectrum of tasks, such as explainable recommendation, review summarization and
+dialog systems. In these tasks, user and item IDs are important identifiers for
+personalization. Transformer, which is demonstrated with strong language
+modeling capability, however, is not personalized and fails to make use of the
+user and item IDs since the ID tokens are not even in the same semantic space
+as the words. To address this problem, we present a PErsonalized Transformer
+for Explainable Recommendation (PETER), on which we design a simple and
+effective learning objective that utilizes the IDs to predict the words in the
+target explanation, so as to endow the IDs with linguistic meanings and to
+achieve personalized Transformer. Besides generating explanations, PETER can
+also make recommendations, which makes it a unified model for the whole
+recommendation-explanation pipeline. Extensive experiments show that our small
+unpretrained model outperforms fine-tuned BERT on the generation task, in terms
+of both effectiveness and efficiency, which highlights the importance and the
+nice utility of our design.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Li_L/0/1/0/all/0/1"&gt;Lei Li&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1"&gt;Yongfeng Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1"&gt;Li Chen&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Personalized Transformer for Explainable Recommendation. (arXiv:2105.11601v2 [cs.IR] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2105.11601</id>
+        <link href="http://arxiv.org/abs/2105.11601"/>
+        <updated>2021-06-09T00:28:49.118Z</updated>
+        <summary type="html"><![CDATA[Personalization of natural language generation plays a vital role in a large
+spectrum of tasks, such as explainable recommendation, review summarization and
+dialog systems. In these tasks, user and item IDs are important identifiers for
+personalization. Transformer, which is demonstrated with strong language
+modeling capability, however, is not personalized and fails to make use of the
+user and item IDs since the ID tokens are not even in the same semantic space
+as the words. To address this problem, we present a PErsonalized Transformer
+for Explainable Recommendation (PETER), on which we design a simple and
+effective learning objective that utilizes the IDs to predict the words in the
+target explanation, so as to endow the IDs with linguistic meanings and to
+achieve personalized Transformer. Besides generating explanations, PETER can
+also make recommendations, which makes it a unified model for the whole
+recommendation-explanation pipeline. Extensive experiments show that our small
+unpretrained model outperforms fine-tuned BERT on the generation task, in terms
+of both effectiveness and efficiency, which highlights the importance and the
+nice utility of our design.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Li_L/0/1/0/all/0/1"&gt;Lei Li&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1"&gt;Yongfeng Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chen_L/0/1/0/all/0/1"&gt;Li Chen&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Compression-Compilation Framework for On-mobile Real-time BERT Applications. (arXiv:2106.00526v2 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2106.00526</id>
