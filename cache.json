@@ -6,6 +6,33 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2012.15859",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Goldfarb_Tarrant_S/0/1/0/all/0/1\">Seraphina Goldfarb-Tarrant</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Marchant_R/0/1/0/all/0/1\">Rebecca Marchant</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sanchez_R/0/1/0/all/0/1\">Ricardo Mu&#xf1;oz Sanchez</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Pandya_M/0/1/0/all/0/1\">Mugdha Pandya</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lopez_A/0/1/0/all/0/1\">Adam Lopez</a>",
+          "description": "Natural Language Processing (NLP) systems learn harmful societal biases that\ncause them to amplify inequality as they are deployed in more and more\nsituations. To guide efforts at debiasing these systems, the NLP community\nrelies on a variety of metrics that quantify bias in models. Some of these\nmetrics are intrinsic, measuring bias in word embedding spaces, and some are\nextrinsic, measuring bias in downstream tasks that the word embeddings enable.\nDo these intrinsic and extrinsic metrics correlate with each other? We compare\nintrinsic and extrinsic metrics across hundreds of trained models covering\ndifferent tasks and experimental conditions. Our results show no reliable\ncorrelation between these metrics that holds in all scenarios across tasks and\nlanguages. We urge researchers working on debiasing to focus on extrinsic\nmeasures of bias, and to make using these measures more feasible via creation\nof new challenge sets and annotated test data. To aid this effort, we release\ncode, a new intrinsic metric, and an annotated test set focused on gender bias\nin hate speech.",
+          "link": "http://arxiv.org/abs/2012.15859",
+          "publishedOn": "2021-06-09T22:43:50.385Z",
+          "wordCount": 662,
+          "title": "Intrinsic Bias Metrics Do Not Correlate with Application Bias. (arXiv:2012.15859v5 [cs.CL] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2101.01785",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Abdul_Mageed_M/0/1/0/all/0/1\">Muhammad Abdul-Mageed</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Elmadany_A/0/1/0/all/0/1\">AbdelRahim Elmadany</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Nagoudi_E/0/1/0/all/0/1\">El Moatez Billah Nagoudi</a>",
+          "description": "Pre-trained language models (LMs) are currently integral to many natural\nlanguage processing systems. Although multilingual LMs were also introduced to\nserve many languages, these have limitations such as being costly at inference\ntime and the size and diversity of non-English data involved in their\npre-training. We remedy these issues for a collection of diverse Arabic\nvarieties by introducing two powerful deep bidirectional transformer-based\nmodels, ARBERT and MARBERT. To evaluate our models, we also introduce ARLUE, a\nnew benchmark for multi-dialectal Arabic language understanding evaluation.\nARLUE is built using 42 datasets targeting six different task clusters,\nallowing us to offer a series of standardized experiments under rich\nconditions. When fine-tuned on ARLUE, our models collectively achieve new\nstate-of-the-art results across the majority of tasks (37 out of 48\nclassification tasks, on the 42 datasets). Our best model acquires the highest\nARLUE score (77.40) across all six task clusters, outperforming all other\nmodels including XLM-R Large (~ 3.4 x larger size). Our models are publicly\navailable at https://github.com/UBC-NLP/marbert and ARLUE will be released\nthrough the same repository.",
+          "link": "http://arxiv.org/abs/2101.01785",
+          "publishedOn": "2021-06-09T22:43:50.339Z",
+          "wordCount": 654,
+          "title": "ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic. (arXiv:2101.01785v3 [cs.CL] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.01087",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Meister_C/0/1/0/all/0/1\">Clara Meister</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Lazov_S/0/1/0/all/0/1\">Stefan Lazov</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Augenstein_I/0/1/0/all/0/1\">Isabelle Augenstein</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cotterell_R/0/1/0/all/0/1\">Ryan Cotterell</a>",
+          "description": "Sparse attention has been claimed to increase model interpretability under\nthe assumption that it highlights influential inputs. Yet the attention\ndistribution is typically over representations internal to the model rather\nthan the inputs themselves, suggesting this assumption may not have merit. We\nbuild on the recent work exploring the interpretability of attention; we design\na set of experiments to help us understand how sparsity affects our ability to\nuse attention as an explainability tool. On three text classification tasks, we\nverify that only a weak relationship between inputs and co-indexed intermediate\nrepresentations exists -- under sparse attention and otherwise. Further, we do\nnot find any plausible mappings from sparse attention distributions to a sparse\nset of influential inputs through other avenues. Rather, we observe in this\nsetting that inducing sparsity may make it less plausible that attention can be\nused as a tool for understanding model behavior.",
+          "link": "http://arxiv.org/abs/2106.01087",
+          "publishedOn": "2021-06-09T22:43:50.188Z",
+          "wordCount": 593,
+          "title": "Is Sparse Attention more Interpretable?. (arXiv:2106.01087v2 [cs.CL] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2010.12684",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Hofmann_V/0/1/0/all/0/1\">Valentin Hofmann</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Pierrehumbert_J/0/1/0/all/0/1\">Janet B. Pierrehumbert</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Schutze_H/0/1/0/all/0/1\">Hinrich Sch&#xfc;tze</a>",
           "description": "Static word embeddings that represent words by a single vector cannot capture\nthe variability of word meaning in different linguistic and extralinguistic\ncontexts. Building on prior work on contextualized and dynamic word embeddings,\nwe introduce dynamic contextualized word embeddings that represent words as a\nfunction of both linguistic and extralinguistic context. Based on a pretrained\nlanguage model (PLM), dynamic contextualized word embeddings model time and\nsocial space jointly, which makes them attractive for a range of NLP tasks\ninvolving semantic variability. We highlight potential application scenarios by\nmeans of qualitative and quantitative analyses on four English datasets.",
@@ -3077,6 +3104,15 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.CV",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2011.08826",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Wickramasinghe_U/0/1/0/all/0/1\">Udaranga Wickramasinghe</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Knott_G/0/1/0/all/0/1\">Graham Knott</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Fua_P/0/1/0/all/0/1\">Pascal Fua</a>",
+          "description": "Active Surface Models have a long history of being useful to model complex 3D\nsurfaces but only Active Contours have been used in conjunction with deep\nnetworks, and then only to produce the data term as well as meta-parameter maps\ncontrolling them. In this paper, we advocate a much tighter integration. We\nintroduce layers that implement them that can be integrated seamlessly into\nGraph Convolutional Networks to enforce sophisticated smoothness priors at an\nacceptable computational cost. We will show that the resulting Deep Active\nSurface Models outperform equivalent architectures that use traditional\nregularization loss terms to impose smoothness priors for 3D surface\nreconstruction from 2D images and for 3D volume segmentation.",
+          "link": "http://arxiv.org/abs/2011.08826",
+          "publishedOn": "2021-06-09T22:43:50.359Z",
+          "wordCount": 599,
+          "title": "Deep Active Surface Models. (arXiv:2011.08826v5 [cs.CV] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2104.14528",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Chen_H/0/1/0/all/0/1\">Haoyuan Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_C/0/1/0/all/0/1\">Chen Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_X/0/1/0/all/0/1\">Xiaoyan Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wang_G/0/1/0/all/0/1\">Ge Wang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hu_W/0/1/0/all/0/1\">Weiming Hu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1\">Yixin Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_W/0/1/0/all/0/1\">Wanli Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Sun_C/0/1/0/all/0/1\">Changhao Sun</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yao_Y/0/1/0/all/0/1\">Yudong Yao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Teng_Y/0/1/0/all/0/1\">Yueyang Teng</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Grzegorzek_M/0/1/0/all/0/1\">Marcin Grzegorzek</a>",
@@ -6504,6 +6540,33 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.LG",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2106.00772",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Khodadadian_S/0/1/0/all/0/1\">Sajad Khodadadian</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Nafea_M/0/1/0/all/0/1\">Mohamed Nafea</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Ghassami_A/0/1/0/all/0/1\">AmirEmad Ghassami</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Kiyavash_N/0/1/0/all/0/1\">Negar Kiyavash</a>",
+          "description": "Machine learning algorithms are increasingly used for consequential decision\nmaking regarding individuals based on their relevant features. Features that\nare relevant for accurate decisions may however lead to either explicit or\nimplicit forms of discrimination against unprivileged groups, such as those of\ncertain race or gender. This happens due to existing biases in the training\ndata, which are often replicated or even exacerbated by the learning algorithm.\nIdentifying and measuring these biases at the data level is a challenging\nproblem due to the interdependence among the features, and the decision\noutcome. In this work, we develop a framework for fairness-aware feature\nselection which takes into account the correlation among the features and the\ndecision outcome, and is based on information theoretic measures for the\naccuracy and discriminatory impacts of features. In particular, we first\npropose information theoretic measures which quantify the impact of different\nsubsets of features on the accuracy and discrimination of the decision\noutcomes. We then deduce the marginal impact of each feature using Shapley\nvalue function; a solution concept in cooperative game theory used to estimate\nmarginal contributions of players in a coalitional game. Finally, we design a\nfairness utility score for each feature (for feature selection) which\nquantifies how this feature influences accurate as well as nondiscriminatory\ndecisions. Our framework depends on the joint statistics of the data rather\nthan a particular classifier design. We examine our proposed framework on real\nand synthetic data to evaluate its performance.",
+          "link": "http://arxiv.org/abs/2106.00772",
+          "publishedOn": "2021-06-09T22:43:50.610Z",
+          "wordCount": 696,
+          "title": "Information Theoretic Measures for Fairness-aware Feature Selection. (arXiv:2106.00772v2 [cs.LG] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2011.08826",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Wickramasinghe_U/0/1/0/all/0/1\">Udaranga Wickramasinghe</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Knott_G/0/1/0/all/0/1\">Graham Knott</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Fua_P/0/1/0/all/0/1\">Pascal Fua</a>",
+          "description": "Active Surface Models have a long history of being useful to model complex 3D\nsurfaces but only Active Contours have been used in conjunction with deep\nnetworks, and then only to produce the data term as well as meta-parameter maps\ncontrolling them. In this paper, we advocate a much tighter integration. We\nintroduce layers that implement them that can be integrated seamlessly into\nGraph Convolutional Networks to enforce sophisticated smoothness priors at an\nacceptable computational cost. We will show that the resulting Deep Active\nSurface Models outperform equivalent architectures that use traditional\nregularization loss terms to impose smoothness priors for 3D surface\nreconstruction from 2D images and for 3D volume segmentation.",
+          "link": "http://arxiv.org/abs/2011.08826",
+          "publishedOn": "2021-06-09T22:43:50.598Z",
+          "wordCount": 599,
+          "title": "Deep Active Surface Models. (arXiv:2011.08826v5 [cs.CV] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.00958",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Almeida_D/0/1/0/all/0/1\">Diogo Almeida</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Winter_C/0/1/0/all/0/1\">Clemens Winter</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Tang_J/0/1/0/all/0/1\">Jie Tang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zaremba_W/0/1/0/all/0/1\">Wojciech Zaremba</a>",
+          "description": "A core issue with learning to optimize neural networks has been the lack of\ngeneralization to real world problems. To address this, we describe a system\ndesigned from a generalization-first perspective, learning to update optimizer\nhyperparameters instead of model parameters directly using novel features,\nactions, and a reward function. This system outperforms Adam at all neural\nnetwork tasks including on modalities not seen during training. We achieve 2x\nspeedups on ImageNet, and a 2.5x speedup on a language modeling task using over\n5 orders of magnitude more compute than the training tasks.",
+          "link": "http://arxiv.org/abs/2106.00958",
+          "publishedOn": "2021-06-09T22:43:50.588Z",
+          "wordCount": 544,
+          "title": "A Generalizable Approach to Learning Optimizers. (arXiv:2106.00958v2 [cs.LG] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2104.01112",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Welleck_S/0/1/0/all/0/1\">Sean Welleck</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_J/0/1/0/all/0/1\">Jiacheng Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bras_R/0/1/0/all/0/1\">Ronan Le Bras</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hajishirzi_H/0/1/0/all/0/1\">Hannaneh Hajishirzi</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Choi_Y/0/1/0/all/0/1\">Yejin Choi</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cho_K/0/1/0/all/0/1\">Kyunghyun Cho</a>",
