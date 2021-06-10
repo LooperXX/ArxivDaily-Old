@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-09T23:41:46.200Z</updated>
+    <updated>2021-06-10T00:27:39.819Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Launchpad: A Programming Model for Distributed Machine Learning Research. (arXiv:2106.04516v1 [cs.DC])]]></title>
+        <id>http://arxiv.org/abs/2106.04516</id>
+        <link href="http://arxiv.org/abs/2106.04516"/>
+        <updated>2021-06-10T00:27:39.761Z</updated>
+        <summary type="html"><![CDATA[A major driver behind the success of modern machine learning algorithms has
+been their ability to process ever-larger amounts of data. As a result, the use
+of distributed systems in both research and production has become increasingly
+prevalent as a means to scale to this growing data. At the same time, however,
+distributing the learning process can drastically complicate the implementation
+of even simple algorithms. This is especially problematic as many machine
+learning practitioners are not well-versed in the design of distributed
+systems, let alone those that have complicated communication topologies. In
+this work we introduce Launchpad, a programming model that simplifies the
+process of defining and launching distributed systems that is specifically
+tailored towards a machine learning audience. We describe our framework, its
+design philosophy and implementation, and give a number of examples of common
+learning algorithms whose designs are greatly simplified by this approach.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Yang_F/0/1/0/all/0/1"&gt;Fan Yang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Barth_Maron_G/0/1/0/all/0/1"&gt;Gabriel Barth-Maron&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Stanczyk_P/0/1/0/all/0/1"&gt;Piotr Sta&amp;#x144;czyk&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Hoffman_M/0/1/0/all/0/1"&gt;Matthew Hoffman&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Liu_S/0/1/0/all/0/1"&gt;Siqi Liu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Kroiss_M/0/1/0/all/0/1"&gt;Manuel Kroiss&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Pope_A/0/1/0/all/0/1"&gt;Aedan Pope&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Rrustemi_A/0/1/0/all/0/1"&gt;Alban Rrustemi&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Information Theoretic Measures for Fairness-aware Feature Selection. (arXiv:2106.00772v2 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2106.00772</id>
