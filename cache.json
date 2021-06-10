@@ -6,6 +6,15 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2106.01978",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Hu_D/0/1/0/all/0/1\">Dou Hu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Wei_L/0/1/0/all/0/1\">Lingwei Wei</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Huai_X/0/1/0/all/0/1\">Xiaoyong Huai</a>",
+          "description": "Emotion Recognition in Conversations (ERC) has gained increasing attention\nfor developing empathetic machines. Recently, many approaches have been devoted\nto perceiving conversational context by deep learning models. However, these\napproaches are insufficient in understanding the context due to lacking the\nability to extract and integrate emotional clues. In this work, we propose\nnovel Contextual Reasoning Networks (DialogueCRN) to fully understand the\nconversational context from a cognitive perspective. Inspired by the Cognitive\nTheory of Emotion, we design multi-turn reasoning modules to extract and\nintegrate emotional clues. The reasoning module iteratively performs an\nintuitive retrieving process and a conscious reasoning process, which imitates\nhuman unique cognitive thinking. Extensive experiments on three public\nbenchmark datasets demonstrate the effectiveness and superiority of the\nproposed model.",
+          "link": "http://arxiv.org/abs/2106.01978",
+          "publishedOn": "2021-06-10T22:40:40.475Z",
+          "wordCount": 575,
+          "title": "DialogueCRN: Contextual Reasoning Networks for Emotion Recognition in Conversations. (arXiv:2106.01978v2 [cs.CL] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2106.04831",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Chin_N/0/1/0/all/0/1\">Ng Bee Chin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Susanto_Y/0/1/0/all/0/1\">Yosephine Susanto</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Cambria_E/0/1/0/all/0/1\">Erik Cambria</a>",
           "description": "MICE is a corpus of emotion words in four languages which is currently\nworking progress. There are two sections to this study, Part I: Emotion word\ncorpus and Part II: Emotion word survey. In Part 1, the method of how the\nemotion data is culled for each of the four languages will be described and\nvery preliminary data will be presented. In total, we identified 3,750 emotion\nexpressions in Malay, 6,657 in Indonesian, 3,347 in Mandarin Chinese and 8,683\nin English. We are currently evaluating and double checking the corpus and\ndoing further analysis on the distribution of these emotion expressions. Part\nII Emotion word survey involved an online language survey which collected\ninformation on how speakers assigned the emotion words into basic emotion\ncategories, the rating for valence and intensity as well as biographical\ninformation of all the respondents.",
@@ -3032,6 +3041,24 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.CV",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2106.01981",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Oreshkin_B/0/1/0/all/0/1\">Boris N. Oreshkin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bocquelet_F/0/1/0/all/0/1\">Florent Bocquelet</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Harvey_F/0/1/0/all/0/1\">F&#xe9;lix G. Harvey</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Raitt_B/0/1/0/all/0/1\">Bay Raitt</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Laflamme_D/0/1/0/all/0/1\">Dominic Laflamme</a>",
+          "description": "Our work focuses on the development of a learnable neural representation of\nhuman pose for advanced AI assisted animation tooling. Specifically, we tackle\nthe problem of constructing a full static human pose based on sparse and\nvariable user inputs (e.g. locations and/or orientations of a subset of body\njoints). To solve this problem, we propose a novel neural architecture that\ncombines residual connections with prototype encoding of a partially specified\npose to create a new complete pose from the learned latent space. We show that\nour architecture outperforms a baseline based on Transformer, both in terms of\naccuracy and computational efficiency. Additionally, we develop a user\ninterface to integrate our neural model in Unity, a real-time 3D development\nplatform. Furthermore, we introduce two new datasets representing the static\nhuman pose modeling problem, based on high-quality human motion capture data,\nwhich will be released publicly along with model code.",
+          "link": "http://arxiv.org/abs/2106.01981",
+          "publishedOn": "2021-06-10T22:40:40.536Z",
+          "wordCount": 609,
+          "title": "ProtoRes: Proto-Residual Architecture for Deep Modeling of Human Pose. (arXiv:2106.01981v2 [cs.CV] UPDATED)"
+        },
+        {
+          "id": "http://arxiv.org/abs/2106.01927",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Chen_A/0/1/0/all/0/1\">Ao Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Li_C/0/1/0/all/0/1\">Chen Li</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chen_H/0/1/0/all/0/1\">Haoyuan Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Yang_H/0/1/0/all/0/1\">Hechen Yang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhao_P/0/1/0/all/0/1\">Peng Zhao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Hu_W/0/1/0/all/0/1\">Weiming Hu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liu_W/0/1/0/all/0/1\">Wanli Liu</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zou_S/0/1/0/all/0/1\">Shuojia Zou</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Grzegorzek_M/0/1/0/all/0/1\">Marcin Grzegorzek</a>",
+          "description": "Image classification has achieved unprecedented advance with the the rapid\ndevelopment of deep learning. However, the classification of tiny object images\nis still not well investigated. In this paper, we first briefly review the\ndevelopment of Convolutional Neural Network and Visual Transformer in deep\nlearning, and introduce the sources and development of conventional noises and\nadversarial attacks. Then we use various models of Convolutional Neural Network\nand Visual Transformer to conduct a series of experiments on the image dataset\nof tiny objects (sperms and impurities), and compare various evaluation metrics\nin the experimental results to obtain a model with stable performance. Finally,\nwe discuss the problems in the classification of tiny objects and make a\nprospect for the classification of tiny objects in the future.",
+          "link": "http://arxiv.org/abs/2106.01927",
+          "publishedOn": "2021-06-10T22:40:40.506Z",
+          "wordCount": 616,
+          "title": "A Comparison for Anti-noise Robustness of Deep Learning Classification Methods on a Tiny Object Image Dataset: from Convolutional Neural Network to Visual Transformer and Performer. (arXiv:2106.01927v2 [cs.CV] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2106.04619",
           "author": "<a href=\"http://arxiv.org/find/stat/1/au:+Kugelgen_J/0/1/0/all/0/1\">Julius von K&#xfc;gelgen</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Sharma_Y/0/1/0/all/0/1\">Yash Sharma</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Gresele_L/0/1/0/all/0/1\">Luigi Gresele</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Brendel_W/0/1/0/all/0/1\">Wieland Brendel</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Scholkopf_B/0/1/0/all/0/1\">Bernhard Sch&#xf6;lkopf</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Besserve_M/0/1/0/all/0/1\">Michel Besserve</a>, <a href=\"http://arxiv.org/find/stat/1/au:+Locatello_F/0/1/0/all/0/1\">Francesco Locatello</a>",
@@ -6531,6 +6558,15 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.LG",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2106.01981",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Oreshkin_B/0/1/0/all/0/1\">Boris N. Oreshkin</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Bocquelet_F/0/1/0/all/0/1\">Florent Bocquelet</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Harvey_F/0/1/0/all/0/1\">F&#xe9;lix G. Harvey</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Raitt_B/0/1/0/all/0/1\">Bay Raitt</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Laflamme_D/0/1/0/all/0/1\">Dominic Laflamme</a>",
+          "description": "Our work focuses on the development of a learnable neural representation of\nhuman pose for advanced AI assisted animation tooling. Specifically, we tackle\nthe problem of constructing a full static human pose based on sparse and\nvariable user inputs (e.g. locations and/or orientations of a subset of body\njoints). To solve this problem, we propose a novel neural architecture that\ncombines residual connections with prototype encoding of a partially specified\npose to create a new complete pose from the learned latent space. We show that\nour architecture outperforms a baseline based on Transformer, both in terms of\naccuracy and computational efficiency. Additionally, we develop a user\ninterface to integrate our neural model in Unity, a real-time 3D development\nplatform. Furthermore, we introduce two new datasets representing the static\nhuman pose modeling problem, based on high-quality human motion capture data,\nwhich will be released publicly along with model code.",
+          "link": "http://arxiv.org/abs/2106.01981",
+          "publishedOn": "2021-06-10T22:40:40.687Z",
+          "wordCount": 609,
+          "title": "ProtoRes: Proto-Residual Architecture for Deep Modeling of Human Pose. (arXiv:2106.01981v2 [cs.CV] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2106.05009",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Bucher_J/0/1/0/all/0/1\">Julian B&#xfc;cher</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Faber_F/0/1/0/all/0/1\">Fynn Faber</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Muir_D/0/1/0/all/0/1\">Dylan R. Muir</a>",
