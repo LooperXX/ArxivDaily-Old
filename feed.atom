@@ -2,10 +2,165 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-14T22:08:38.529Z</updated>
+    <updated>2021-06-14T22:41:41.552Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Online Adversarial Attacks. (arXiv:2103.02014v3 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2103.02014</id>
+        <link href="http://arxiv.org/abs/2103.02014"/>
+        <updated>2021-06-14T22:41:41.478Z</updated>
+        <summary type="html"><![CDATA[Adversarial attacks expose important vulnerabilities of deep learning models,
+yet little attention has been paid to settings where data arrives as a stream.
+In this paper, we formalize the online adversarial attack problem, emphasizing
+two key elements found in real-world use-cases: attackers must operate under
+partial knowledge of the target model, and the decisions made by the attacker
+are irrevocable since they operate on a transient data stream. We first
+rigorously analyze a deterministic variant of the online threat model by
+drawing parallels to the well-studied $k$-secretary problem in theoretical
+computer science and propose Virtual+, a simple yet practical online algorithm.
+Our main theoretical result show Virtual+ yields provably the best competitive
+ratio over all single-threshold algorithms for $k<5$ -- extending previous
+analysis of the $k$-secretary problem. We also introduce the \textit{stochastic
+$k$-secretary} -- effectively reducing online blackbox transfer attacks to a
+$k$-secretary problem under noise -- and prove theoretical bounds on the
+performance of \textit{any} online algorithms adapted to this setting. Finally,
+we complement our theoretical results by conducting experiments on both MNIST
+and CIFAR-10 with both vanilla and robust classifiers, revealing not only the
+necessity of online algorithms in achieving near-optimal performance but also
+the rich interplay of a given attack strategy towards online attack selection,
+enabling simple strategies like FGSM to outperform classically strong whitebox
+adversaries.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Mladenovic_A/0/1/0/all/0/1"&gt;Andjela Mladenovic&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Bose_A/0/1/0/all/0/1"&gt;Avishek Joey Bose&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Berard_H/0/1/0/all/0/1"&gt;Hugo Berard&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Hamilton_W/0/1/0/all/0/1"&gt;William L. Hamilton&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Lacoste_Julien_S/0/1/0/all/0/1"&gt;Simon Lacoste-Julien&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Vincent_P/0/1/0/all/0/1"&gt;Pascal Vincent&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Gidel_G/0/1/0/all/0/1"&gt;Gauthier Gidel&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On the Proof of Global Convergence of Gradient Descent for Deep ReLU Networks with Linear Widths. (arXiv:2101.09612v3 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2101.09612</id>
+        <link href="http://arxiv.org/abs/2101.09612"/>
+        <updated>2021-06-14T22:41:41.457Z</updated>
+        <summary type="html"><![CDATA[We give a simple proof for the global convergence of gradient descent in
+training deep ReLU networks with the standard square loss, and show some of its
+improvements over the state-of-the-art. In particular, while prior works
+require all the hidden layers to be wide with width at least $\Omega(N^8)$ ($N$
+being the number of training samples), we require a single wide layer of
+linear, quadratic or cubic width depending on the type of initialization.
+Unlike many recent proofs based on the Neural Tangent Kernel (NTK), our proof
+need not track the evolution of the entire NTK matrix, or more generally, any
+quantities related to the changes of activation patterns during training.
+Instead, we only need to track the evolution of the output at the last hidden
+layer, which can be done much more easily thanks to the Lipschitz property of
+ReLU. Some highlights of our setting: (i) all the layers are trained with
+standard gradient descent, (ii) the network has standard parameterization as
+opposed to the NTK one, and (iii) the network has a single wide layer as
+opposed to having all wide hidden layers as in most of NTK-related results.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Nguyen_Q/0/1/0/all/0/1"&gt;Quynh Nguyen&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accelerating Stochastic Simulation with Interactive Neural Processes. (arXiv:2106.02770v2 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2106.02770</id>
+        <link href="http://arxiv.org/abs/2106.02770"/>
+        <updated>2021-06-14T22:41:41.445Z</updated>
+        <summary type="html"><![CDATA[Stochastic simulations such as large-scale, spatiotemporal, age-structured
+epidemic models are computationally expensive at fine-grained resolution. We
+propose Interactive Neural Process (INP), an interactive framework to
+continuously learn a deep learning surrogate model and accelerate simulation.
+Our framework is based on the novel integration of Bayesian active learning,
+stochastic simulation and deep sequence modeling. In particular, we develop a
+novel spatiotemporal neural process model to mimic the underlying process
+dynamics. Our model automatically infers the latent process which describes the
+intrinsic uncertainty of the simulator. This also gives rise to a new
+acquisition function that can quantify the uncertainty of deep learning
+predictions. We design Bayesian active learning algorithms to iteratively query
+the simulator, gather more data, and continuously improve the model. We perform
+theoretical analysis and demonstrate that our approach reduces sample
+complexity compared with random sampling in high dimension. Empirically, we
+demonstrate our framework can faithfully imitate the behavior of a complex
+infectious disease simulator with a small number of examples, enabling rapid
+simulation and scenario exploration.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Wu_D/0/1/0/all/0/1"&gt;Dongxia Wu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chinazzi_M/0/1/0/all/0/1"&gt;Matteo Chinazzi&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Vespignani_A/0/1/0/all/0/1"&gt;Alessandro Vespignani&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Ma_Y/0/1/0/all/0/1"&gt;Yi-An Ma&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Yu_R/0/1/0/all/0/1"&gt;Rose Yu&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Conditional and Adversarial Euler-based Generators For Time Series. (arXiv:2102.05313v4 [stat.ML] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2102.05313</id>
+        <link href="http://arxiv.org/abs/2102.05313"/>
+        <updated>2021-06-14T22:41:41.415Z</updated>
+        <summary type="html"><![CDATA[We introduce three new generative models for time series. Based on Euler
+discretization and Wasserstein metrics, they are able to capture time marginal
+distributions and temporal dynamics. Two of these methods rely on the
+adaptation of generative adversarial networks (GANs) to time series. Both of
+them outperform state-of-the-art benchmarks by capturing the underlying
+temporal structure on synthetic time series. The third algorithm, called
+Conditional Euler Generator (CEGEN), minimizes a dedicated distance between the
+transition probability distributions over all time steps. In the context of Ito
+processes, we provide theoretical guarantees that minimizing this criterion
+implies accurate estimations of the drift and volatility parameters. We
+demonstrate empirically that CEGEN outperforms state-of-the-art and GAN
+generators on both marginal and temporal dynamics metrics. Besides, it
+identifies accurate correlation structures in high dimension. When few data
+points are available, we verify the effectiveness of CEGEN, when combined with
+transfer learning methods on Monte Carlo simulations. Finally, we illustrate
+the robustness of our method on various real-world datasets.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/stat/1/au:+Remlinger_C/0/1/0/all/0/1"&gt;Carl Remlinger&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Mikael_J/0/1/0/all/0/1"&gt;Joseph Mikael&lt;/a&gt;, &lt;a href="http://arxiv.org/find/stat/1/au:+Elie_R/0/1/0/all/0/1"&gt;Romuald Elie&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Logic of Machine Learning. (arXiv:2006.09500v3 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2006.09500</id>
+        <link href="http://arxiv.org/abs/2006.09500"/>
+        <updated>2021-06-14T22:41:41.392Z</updated>
+        <summary type="html"><![CDATA[I propose a new, logical, foundation for ML. ML is approached as a problem of
+maximizing consistency of a hypothesis in a context of a given training set.
+Nonjudgmental logic (NjL) with modalities ``It appears that'', ``Assume that''
+is introduced to formalize and quantify the inconsistency. Many popular ML
+algorithms (from hierarchical clustering to k-NN and SVM) are shown to
+corroborate the conjecture. In addition, it is demonstrated that NjL allows to
+formalize and solve several general learning problems which are not considered
+as ML usually.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Sapir_M/0/1/0/all/0/1"&gt;Marina Sapir&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Modular Analysis of Provable Acceleration via Polyak's Momentum: Training a Wide ReLU Network and a Deep Linear Network. (arXiv:2010.01618v6 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2010.01618</id>
+        <link href="http://arxiv.org/abs/2010.01618"/>
+        <updated>2021-06-14T22:41:41.359Z</updated>
+        <summary type="html"><![CDATA[Incorporating a so-called "momentum" dynamic in gradient descent methods is
+widely used in neural net training as it has been broadly observed that, at
+least empirically, it often leads to significantly faster convergence. At the
+same time, there are very few theoretical guarantees in the literature to
+explain this apparent acceleration effect. Even for the classical strongly
+convex quadratic problems, several existing results only show Polyak's momentum
+has an accelerated linear rate asymptotically. In this paper, we first revisit
+the quadratic problems and show a non-asymptotic accelerated linear rate of
+Polyak's momentum. Then, we provably show that Polyak's momentum achieves
+acceleration for training a one-layer wide ReLU network and a deep linear
+network, which are perhaps the two most popular canonical models for studying
+optimization and deep learning in the literature. Prior work Du at al. 2019 and
+Wu et al. 2019 showed that using vanilla gradient descent, and with an use of
+over-parameterization, the error decays as $(1- \Theta(\frac{1}{ \kappa'}))^t$
+after $t$ iterations, where $\kappa'$ is the condition number of a Gram Matrix.
+Our result shows that with the appropriate choice of parameters Polyak's
+momentum has a rate of $(1-\Theta(\frac{1}{\sqrt{\kappa'}}))^t$. For the deep
+linear network, prior work Hu et al. 2020 showed that vanilla gradient descent
+has a rate of $(1-\Theta(\frac{1}{\kappa}))^t$, where $\kappa$ is the condition
+number of a data matrix. Our result shows an acceleration rate $(1-
+\Theta(\frac{1}{\sqrt{\kappa}}))^t$ is achievable by Polyak's momentum. All the
+results in this work are obtained from a modular analysis, which can be of
+independent interest. This work establishes that momentum does indeed speed up
+neural net training.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Wang_J/0/1/0/all/0/1"&gt;Jun-Kun Wang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Lin_C/0/1/0/all/0/1"&gt;Chi-Heng Lin&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Abernethy_J/0/1/0/all/0/1"&gt;Jacob Abernethy&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Asymmetric Heavy Tails and Implicit Bias in Gaussian Noise Injections. (arXiv:2102.07006v2 [stat.ML] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2102.07006</id>
