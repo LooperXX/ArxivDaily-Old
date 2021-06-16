@@ -6,6 +6,15 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2101.06983",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1\">Luyu Gao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1\">Yunyi Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Han_J/0/1/0/all/0/1\">Jiawei Han</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Callan_J/0/1/0/all/0/1\">Jamie Callan</a>",
+          "description": "Contrastive learning has been applied successfully to learn vector\nrepresentations of text. Previous research demonstrated that learning\nhigh-quality representations benefits from batch-wise contrastive loss with a\nlarge number of negatives. In practice, the technique of in-batch negative is\nused, where for each example in a batch, other batch examples' positives will\nbe taken as its negatives, avoiding encoding extra negatives. This, however,\nstill conditions each example's loss on all batch examples and requires fitting\nthe entire large batch into GPU memory. This paper introduces a gradient\ncaching technique that decouples backpropagation between contrastive loss and\nthe encoder, removing encoder backward pass data dependency along the batch\ndimension. As a result, gradients can be computed for one subset of the batch\nat a time, leading to almost constant memory usage.",
+          "link": "http://arxiv.org/abs/2101.06983",
+          "publishedOn": "2021-06-16T00:27:38.461Z",
+          "wordCount": 593,
+          "title": "Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup. (arXiv:2101.06983v2 [cs.LG] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2106.04563",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Mukherjee_S/0/1/0/all/0/1\">Subhabrata Mukherjee</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Awadallah_A/0/1/0/all/0/1\">Ahmed Hassan Awadallah</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Gao_J/0/1/0/all/0/1\">Jianfeng Gao</a>",
           "description": "While deep and large pre-trained models are the state-of-the-art for various\nnatural language processing tasks, their huge size poses significant challenges\nfor practical uses in resource constrained settings. Recent works in knowledge\ndistillation propose task-agnostic as well as task-specific methods to compress\nthese models, with task-specific ones often yielding higher compression rate.\nIn this work, we develop a new task-agnostic distillation framework\nXtremeDistilTransformers that leverages the advantage of task-specific methods\nfor learning a small universal model that can be applied to arbitrary tasks and\nlanguages. To this end, we study the transferability of several source tasks,\naugmentation resources and model architecture for distillation. We evaluate our\nmodel performance on multiple tasks, including the General Language\nUnderstanding Evaluation (GLUE) benchmark, SQuAD question answering dataset and\na massive multi-lingual NER dataset with 41 languages. We release three\ndistilled task-agnostic checkpoints with 13MM, 22MM and 33MM parameters\nobtaining SOTA performance in several tasks.",
@@ -2253,6 +2262,15 @@
       "feedUrl": "http://export.arxiv.org/rss/cs.IR",
       "siteUrl": "http://arxiv.org/",
       "articles": [
+        {
+          "id": "http://arxiv.org/abs/2101.06983",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1\">Luyu Gao</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1\">Yunyi Zhang</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Han_J/0/1/0/all/0/1\">Jiawei Han</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Callan_J/0/1/0/all/0/1\">Jamie Callan</a>",
+          "description": "Contrastive learning has been applied successfully to learn vector\nrepresentations of text. Previous research demonstrated that learning\nhigh-quality representations benefits from batch-wise contrastive loss with a\nlarge number of negatives. In practice, the technique of in-batch negative is\nused, where for each example in a batch, other batch examples' positives will\nbe taken as its negatives, avoiding encoding extra negatives. This, however,\nstill conditions each example's loss on all batch examples and requires fitting\nthe entire large batch into GPU memory. This paper introduces a gradient\ncaching technique that decouples backpropagation between contrastive loss and\nthe encoder, removing encoder backward pass data dependency along the batch\ndimension. As a result, gradients can be computed for one subset of the batch\nat a time, leading to almost constant memory usage.",
+          "link": "http://arxiv.org/abs/2101.06983",
+          "publishedOn": "2021-06-16T00:27:38.497Z",
+          "wordCount": 593,
+          "title": "Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup. (arXiv:2101.06983v2 [cs.LG] UPDATED)"
+        },
         {
           "id": "http://arxiv.org/abs/2106.03954",
           "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Pereira_G/0/1/0/all/0/1\">Geand Trindade Pereira</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Santos_M/0/1/0/all/0/1\">Moises Rocha dos Santos</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Carvalho_A/0/1/0/all/0/1\">Andre Carlos Ponce de Leon Ferreira de Carvalho</a>",

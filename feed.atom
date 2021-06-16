@@ -2,10 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-15T23:38:55.277Z</updated>
+    <updated>2021-06-16T00:27:38.569Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup. (arXiv:2101.06983v2 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2101.06983</id>
+        <link href="http://arxiv.org/abs/2101.06983"/>
+        <updated>2021-06-16T00:27:38.497Z</updated>
+        <summary type="html"><![CDATA[Contrastive learning has been applied successfully to learn vector
+representations of text. Previous research demonstrated that learning
+high-quality representations benefits from batch-wise contrastive loss with a
+large number of negatives. In practice, the technique of in-batch negative is
+used, where for each example in a batch, other batch examples' positives will
+be taken as its negatives, avoiding encoding extra negatives. This, however,
+still conditions each example's loss on all batch examples and requires fitting
+the entire large batch into GPU memory. This paper introduces a gradient
+caching technique that decouples backpropagation between contrastive loss and
+the encoder, removing encoder backward pass data dependency along the batch
+dimension. As a result, gradients can be computed for one subset of the batch
+at a time, leading to almost constant memory usage.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1"&gt;Luyu Gao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1"&gt;Yunyi Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Han_J/0/1/0/all/0/1"&gt;Jiawei Han&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Callan_J/0/1/0/all/0/1"&gt;Jamie Callan&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scaling Deep Contrastive Learning Batch Size under Memory Limited Setup. (arXiv:2101.06983v2 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2101.06983</id>
+        <link href="http://arxiv.org/abs/2101.06983"/>
+        <updated>2021-06-16T00:27:38.461Z</updated>
+        <summary type="html"><![CDATA[Contrastive learning has been applied successfully to learn vector
+representations of text. Previous research demonstrated that learning
+high-quality representations benefits from batch-wise contrastive loss with a
+large number of negatives. In practice, the technique of in-batch negative is
+used, where for each example in a batch, other batch examples' positives will
+be taken as its negatives, avoiding encoding extra negatives. This, however,
+still conditions each example's loss on all batch examples and requires fitting
+the entire large batch into GPU memory. This paper introduces a gradient
+caching technique that decouples backpropagation between contrastive loss and
+the encoder, removing encoder backward pass data dependency along the batch
+dimension. As a result, gradients can be computed for one subset of the batch
+at a time, leading to almost constant memory usage.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Gao_L/0/1/0/all/0/1"&gt;Luyu Gao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Zhang_Y/0/1/0/all/0/1"&gt;Yunyi Zhang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Han_J/0/1/0/all/0/1"&gt;Jiawei Han&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Callan_J/0/1/0/all/0/1"&gt;Jamie Callan&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Evaluating Meta-Feature Selection for the Algorithm Recommendation Problem. (arXiv:2106.03954v2 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2106.03954</id>
