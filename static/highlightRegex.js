@@ -111,7 +111,7 @@
                 parent.replaceChild( spannode, middlebit )
                 
                 // Update highlight state
-                parent.parentNode.parentNode.firstElementChild.textContent = '★' + parent.parentNode.parentNode.firstElementChild.textContent.slice(1)
+                parent.parentNode.parentNode.firstElementChild.innerHTML = '★' + parent.parentNode.parentNode.firstElementChild.innerHTML.slice(1)
 
               } else break
             }
