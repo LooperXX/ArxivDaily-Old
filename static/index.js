@@ -2,7 +2,7 @@
  * @Author: LooperXX
  * @Email: xxu@ir.hit.edu.cn
  * @Date: 2021-05-22 14:40:50
- * @LastEditTime: 2021-06-18 00:11:55
+ * @LastEditTime: 2021-06-18 00:15:57
  * @LastEditors: LooperXX
  * @Description: 
  */
@@ -34,7 +34,7 @@ document.onkeydown=function(e){
 }
 
 // Highlight Keywords
-var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Zhiyuan Liu", "Christopher Manning", "Noah A. Smith", "Jason Eisner", "Percy Liang", "Bill Yuchen Lin", "Li Dong", "Pengfei Liu", "Peter Anderson", "Samuel R. Bowman", "Li Fei-Fei", "Kang Liu", "Tang Jie", "Michael I. Jordan", "Steven C.H. Hoi", "Hanwang Zhang", "Caiming Xiong", "Dan Roth", "Yankai Lin", "Mikel Artetxe", "Jian Tang", "Duyu Tang", "Christopher D Manning", "Jason Weston", "William Fedus", "Jason C.S. Wu", "Bing Liu", "Jiawei Han", "Kyunghyun Cho", "Yonglong Tian", "Richard Socher", "Andrew Ng", "Jiatao Gu", "Phillip Isola", "Zhongyu Wei", "Zhou Yu", "Juergen Schmidhuber", "Yejin Choi", "Yoshua Bengio", "Sebastian Ruder", "Zhilin Yang", "Tao Gui", "Zachary C. Lipton", "Jure Leskovec", "Wayne Xin Zhao", "Rico Sennrich", "Jeffrey Pennington", "Wanxiang Che", "Tong Xiao", "Noam Shazeer", "Barret Zoph", "Chris Dyer", "Furu Wei", "Jiang Guo", "Danqi Chen", "Jiajun Wu", "Chris Pal", "Bolei Zhou", "Yoav Goldberg", "Yuchen Zhang", "Quoc V. Le", "Jiasen Lu", "Jing Jiang", "Dzmitry Bahdanau", "Dan Jurafsky", "Yoon Kim", "Wenhu Chen", "Justin Johnson", "Ming Zhou", "Ian Goodfellow", "Jianfeng Gao", "Tomas Mikolov", "Geoffrey Hinton", "Yann LeCun", "Hai Zhao", "Jiwei Li", "Haifeng Wang", "Luke Zettlemoyer", "ChengXiang Zhai", "Zengfeng Huang", "Tianyang Lin", "Yiheng Shu", "Libo Qin"];
+var authors = ["Kaiming He", "Graham Neubig", "Tie-Yan Liu", "Xipeng Qiu", "Yue Zhang", "Zhiyuan Liu", "Christopher Manning", "Noah A. Smith", "Jason Eisner", "Percy Liang", "Bill Yuchen Lin", "Li Dong", "Pengfei Liu", "Peter Anderson", "Samuel R. Bowman", "Li Fei-Fei", "Kang Liu", "Tang Jie", "Michael I. Jordan", "Steven C.H. Hoi", "Hanwang Zhang", "Caiming Xiong", "Dan Roth", "Yankai Lin", "Mikel Artetxe", "Jian Tang", "Duyu Tang", "Christopher D Manning", "Jason Weston", "William Fedus", "Jason C.S. Wu", "Bing Liu", "Jiawei Han", "Kyunghyun Cho", "Yonglong Tian", "Richard Socher", "Andrew Ng", "Jiatao Gu", "Phillip Isola", "Zhongyu Wei", "Zhou Yu", "Juergen Schmidhuber", "Yejin Choi", "Yoshua Bengio", "Sebastian Ruder", "Zhilin Yang", "Tao Gui", "Zachary C. Lipton", "Jure Leskovec", "Wayne Xin Zhao", "Rico Sennrich", "Jeffrey Pennington", "Wanxiang Che", "Tong Xiao", "Noam Shazeer", "Barret Zoph", "Chris Dyer", "Furu Wei", "Jiang Guo", "Danqi Chen", "Jiajun Wu", "Chris Pal", "Bolei Zhou", "Yoav Goldberg", "Yuchen Zhang", "Quoc V. Le", "Jiasen Lu", "Jing Jiang", "Dzmitry Bahdanau", "Dan Jurafsky", "Yoon Kim", "Wenhu Chen", "Justin Johnson", "Ming Zhou", "Ian Goodfellow", "Jianfeng Gao", "Tomas Mikolov", "Geoffrey Hinton", "Yann LeCun", "Hai Zhao", "Jiwei Li", "Haifeng Wang", "Luke Zettlemoyer", "ChengXiang Zhai", "Zengfeng Huang", "Tianyang Lin", "Yiheng Shu", "Libo Qin", "Rami Al-Rfou"];
 
 var titles_area = ["Task-oriented", "Conversation", "Dialogue", "Dialog", "Cross-Modal", "Multi-Modal", "Contrastive Learning", "Vision-and-Language", "V&L", "Pre-train", "Pretrain"];
 var titles_model = ["BERT", "GPT","Transformer"];
