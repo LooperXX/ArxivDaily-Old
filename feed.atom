@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-06-17T16:12:40.597Z</updated>
+    <updated>2021-06-17T16:16:41.972Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A Predictive Coding Account for Chaotic Itinerancy. (arXiv:2106.08937v1 [cs.NE])]]></title>
+        <id>http://arxiv.org/abs/2106.08937</id>
+        <link href="http://arxiv.org/abs/2106.08937"/>
+        <updated>2021-06-17T16:16:41.906Z</updated>
+        <summary type="html"><![CDATA[As a phenomenon in dynamical systems allowing autonomous switching between
+stable behaviors, chaotic itinerancy has gained interest in neurorobotics
+research. In this study, we draw a connection between this phenomenon and the
+predictive coding theory by showing how a recurrent neural network implementing
+predictive coding can generate neural trajectories similar to chaotic
+itinerancy in the presence of input noise. We propose two scenarios generating
+random and past-independent attractor switching trajectories using our model.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Annabi_L/0/1/0/all/0/1"&gt;Louis Annabi&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Pitti_A/0/1/0/all/0/1"&gt;Alexandre Pitti&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Quoy_M/0/1/0/all/0/1"&gt;Mathias Quoy&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self-supervised GANs with Label Augmentation. (arXiv:2106.08601v1 [cs.LG])]]></title>
+        <id>http://arxiv.org/abs/2106.08601</id>
+        <link href="http://arxiv.org/abs/2106.08601"/>
+        <updated>2021-06-17T16:16:41.579Z</updated>
+        <summary type="html"><![CDATA[Recently, transformation-based self-supervised learning has been applied to
+generative adversarial networks (GANs) to mitigate the catastrophic forgetting
+problem of discriminator by learning stable representations. However, the
+separate self-supervised tasks in existing self-supervised GANs cause an
+inconsistent goal with generative modeling due to the learning of the generator
+from their generator distribution-agnostic classifiers. To address this issue,
+we propose a novel self-supervised GANs framework with label augmentation,
+i.e., augmenting the GAN labels (real or fake) with the self-supervised
+pseudo-labels. In particular, the discriminator and the self-supervised
+classifier are unified to learn a single task that predicts the augmented label
+such that the discriminator/classifier is aware of the generator distribution,
+while the generator tries to confuse the discriminator/classifier by optimizing
+the discrepancy between the transformed real and generated distributions.
+Theoretically, we prove that the generator, at the equilibrium point, converges
+to replicate the data distribution. Empirically, we demonstrate that the
+proposed method significantly outperforms competitive baselines on both
+generative modeling and representation learning across benchmark datasets.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Hou_L/0/1/0/all/0/1"&gt;Liang Hou&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Shen_H/0/1/0/all/0/1"&gt;Huawei Shen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Cao_Q/0/1/0/all/0/1"&gt;Qi Cao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Cheng_X/0/1/0/all/0/1"&gt;Xueqi Cheng&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Automating Augmentation Through Random Unidimensional Search. (arXiv:2106.08756v1 [cs.LG])]]></title>
+        <id>http://arxiv.org/abs/2106.08756</id>
+        <link href="http://arxiv.org/abs/2106.08756"/>
+        <updated>2021-06-17T16:16:41.547Z</updated>
+        <summary type="html"><![CDATA[It is no secret amongst deep learning researchers that finding the right data
+augmentation strategy during training can mean the difference between a
+state-of-the-art result and a run-of-the-mill ranking. To that end, the
+community has seen many efforts to automate the process of finding the perfect
+augmentation procedure for any task at hand. Unfortunately, even recent
+cutting-edge methods bring massive computational overhead, requiring as many as
+100 full model trainings to settle on an ideal configuration. We show how to
+achieve even better performance in just 7: with Random Unidimensional
+Augmentation. Source code is available at https://github.com/fastestimator/RUA]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Dong_X/0/1/0/all/0/1"&gt;Xiaomeng Dong&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Potter_M/0/1/0/all/0/1"&gt;Michael Potter&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Kumar_G/0/1/0/all/0/1"&gt;Gaurav Kumar&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Tsai_Y/0/1/0/all/0/1"&gt;Yun-Chan Tsai&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Saripalli_V/0/1/0/all/0/1"&gt;V. Ratna Saripalli&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Network Space Search for Pareto-Efficient Spaces. (arXiv:2104.11014v5 [cs.CV] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2104.11014</id>
