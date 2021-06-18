@@ -110,8 +110,10 @@
                 spannode.appendChild( middleclone )
                 parent.replaceChild( spannode, middlebit )
                 
-                // Update highlight state
-                parent.parentNode.parentNode.firstElementChild.innerHTML = '★' + parent.parentNode.parentNode.firstElementChild.innerHTML.slice(1)
+                // Update highlight_author state
+                if (options.className == 'highlight_author'){
+                  parent.parentNode.parentNode.firstElementChild.innerHTML = '★' + parent.parentNode.parentNode.firstElementChild.innerHTML.slice(1)
+                }
 
               } else break
             }
