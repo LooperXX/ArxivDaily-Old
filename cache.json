@@ -18716,24 +18716,6 @@
           "publishedOn": "2021-06-14T01:38:53.118Z",
           "wordCount": 631,
           "title": "Modeling Sequences as Distributions with Uncertainty for Sequential Recommendation. (arXiv:2106.06165v1 [cs.IR])"
-        },
-        {
-          "id": "http://arxiv.org/abs/2106.05545",
-          "author": "<a href=\"http://arxiv.org/find/eess/1/au:+Guo_Y/0/1/0/all/0/1\">Yibo Guo</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Wang_H/0/1/0/all/0/1\">Haidi Wang</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Fan_Y/0/1/0/all/0/1\">Yiming Fan</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Li_S/0/1/0/all/0/1\">Shunyao Li</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Xu_M/0/1/0/all/0/1\">Mingliang Xu</a>",
-          "description": "With the effective application of deep learning in computer vision,\nbreakthroughs have been made in the research of super-resolution images\nreconstruction. However, many researches have pointed out that the\ninsufficiency of the neural network extraction on image features may bring the\ndeteriorating of newly reconstructed image. On the other hand, the generated\npictures are sometimes too artificial because of over-smoothing. In order to\nsolve the above problems, we propose a novel self-calibrated convolutional\ngenerative adversarial networks. The generator consists of feature extraction\nand image reconstruction. Feature extraction uses self-calibrated convolutions,\nwhich contains four portions, and each portion has specific functions. It can\nnot only expand the range of receptive fields, but also obtain long-range\nspatial and inter-channel dependencies. Then image reconstruction is performed,\nand finally a super-resolution image is reconstructed. We have conducted\nthorough experiments on different datasets including set5, set14 and BSD100\nunder the SSIM evaluation method. The experimental results prove the\neffectiveness of the proposed network.",
-          "link": "http://arxiv.org/abs/2106.05545",
-          "publishedOn": "2021-06-11T22:07:42.030Z",
-          "wordCount": 607,
-          "title": "Super-Resolution Image Reconstruction Based on Self-Calibrated Convolutional GAN. (arXiv:2106.05545v1 [eess.IV])"
-        },
-        {
-          "id": "http://arxiv.org/abs/2106.05915",
-          "author": "<a href=\"http://arxiv.org/find/eess/1/au:+Kamal_U/0/1/0/all/0/1\">Uday Kamal</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Zunaed_M/0/1/0/all/0/1\">Mohammad Zunaed</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Nizam_N/0/1/0/all/0/1\">Nusrat Binta Nizam</a>, <a href=\"http://arxiv.org/find/eess/1/au:+Hasan_T/0/1/0/all/0/1\">Taufiq Hasan</a>",
-          "description": "Thoracic disease detection from chest radiographs using deep learning methods\nhas been an active area of research in the last decade. Most previous methods\nattempt to focus on the diseased organs of the image by identifying spatial\nregions responsible for significant contributions to the model's prediction. In\ncontrast, expert radiologists first locate the prominent anatomical structures\nbefore determining if those regions are anomalous. Therefore, integrating\nanatomical knowledge within deep learning models could bring substantial\nimprovement in automatic disease classification. This work proposes an\nanatomy-aware attention-based architecture named Anatomy X-Net, that\nprioritizes the spatial features guided by the pre-identified anatomy regions.\nWe leverage a semi-supervised learning method using the JSRT dataset containing\norgan-level annotation to obtain the anatomical segmentation masks (for lungs\nand heart) for the NIH and CheXpert datasets. The proposed Anatomy X-Net uses\nthe pre-trained DenseNet-121 as the backbone network with two corresponding\nstructured modules, the Anatomy Aware Attention (AAA) and Probabilistic\nWeighted Average Pooling (PWAP), in a cohesive framework for anatomical\nattention learning. Our proposed method sets new state-of-the-art performance\non the official NIH test set with an AUC score of 0.8439, proving the efficacy\nof utilizing the anatomy segmentation knowledge to improve the thoracic disease\nclassification. Furthermore, the Anatomy X-Net yields an averaged AUC of 0.9020\non the Stanford CheXpert dataset, improving on existing methods that\ndemonstrate the generalizability of the proposed framework.",
-          "link": "http://arxiv.org/abs/2106.05915",
-          "publishedOn": "2021-06-11T22:07:42.006Z",
-          "wordCount": 679,
-          "title": "Anatomy X-Net: A Semi-Supervised Anatomy Aware Convolutional Neural Network for Thoracic Disease Classification. (arXiv:2106.05915v1 [eess.IV])"
         }
       ]
     }
