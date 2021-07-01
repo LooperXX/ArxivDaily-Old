@@ -4,18 +4,17 @@ An RSS feed reader for "ArxivDaily".
 
 ## Features
 
-- Exapand/Collapse all articles with `Tab`  key.
 - Display the authors information in the `details`.
-- Distinguish whether the paper is a new submission or an update by prefix `[Updated] - `.
 - Highlight specific `keywords` in the title and authors of the paper.
-- Customize keywords list in `index.js` and corresponding CSS style in `index.css`.
-
+- Distinguish whether a paper is a new submission or an update one by the prefix `♻`.
+- Distinguish whether a paper is written by your highlighted author by the prefix `☆` or `★`.
+- Expand/Collapse all articles with `Tab` key.
 
 ## Usage
 
 - Click the `title` to expand it and have a close look at its abstract.
 - Click the `abstract` to jump to the arxiv page of the paper.
-- Customize the highlight `keywords` by yourself.
+- Customize highlight keywords list in `index.js` and corresponding CSS style in `index.css`.
 
 ## Links and references
 
