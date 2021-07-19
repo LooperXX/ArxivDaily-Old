@@ -2,10 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-07-19T00:49:08.206Z</updated>
+    <updated>2021-07-19T01:59:51.129Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. (arXiv:2106.10507v3 [cs.SE] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2106.10507</id>
+        <link href="http://arxiv.org/abs/2106.10507"/>
+        <updated>2021-07-19T01:59:51.065Z</updated>
+        <summary type="html"><![CDATA[Graphically-rich applications such as games are ubiquitous with attractive
+visual effects of Graphical User Interface (GUI) that offers a bridge between
+software applications and end-users. However, various types of graphical
+glitches may arise from such GUI complexity and have become one of the main
+component of software compatibility issues. Our study on bug reports from game
+development teams in NetEase Inc. indicates that graphical glitches frequently
+occur during the GUI rendering and severely degrade the quality of
+graphically-rich applications such as video games. Existing automated testing
+techniques for such applications focus mainly on generating various GUI test
+sequences and check whether the test sequences can cause crashes. These
+techniques require constant human attention to captures non-crashing bugs such
+as bugs causing graphical glitches. In this paper, we present the first step in
+automating the test oracle for detecting non-crashing bugs in graphically-rich
+applications. Specifically, we propose \texttt{GLIB} based on a code-based data
+augmentation technique to detect game GUI glitches. We perform an evaluation of
+\texttt{GLIB} on 20 real-world game apps (with bug reports available) and the
+result shows that \texttt{GLIB} can achieve 100\% precision and 99.5\% recall
+in detecting non-crashing bugs such as game GUI glitches. Practical application
+of \texttt{GLIB} on another 14 real-world games (without bug reports) further
+demonstrates that \texttt{GLIB} can effectively uncover GUI glitches, with 48
+of 53 bugs reported by \texttt{GLIB} having been confirmed and fixed so far.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Chen_K/0/1/0/all/0/1"&gt;Ke Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1"&gt;Yufei Li&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1"&gt;Yingfeng Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Fan_C/0/1/0/all/0/1"&gt;Changjie Fan&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Hu_Z/0/1/0/all/0/1"&gt;Zhipeng Hu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Yang_W/0/1/0/all/0/1"&gt;Wei Yang&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hoechst Is All You Need: Lymphocyte Classification with Deep Learning. (arXiv:2107.04388v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2107.04388</id>
+        <link href="http://arxiv.org/abs/2107.04388"/>
+        <updated>2021-07-19T01:59:51.035Z</updated>
+        <summary type="html"><![CDATA[Multiplex immunofluorescence and immunohistochemistry benefit patients by
+allowing cancer pathologists to identify several proteins expressed on the
+surface of cells, enabling cell classification, better understanding of the
+tumour micro-environment, more accurate diagnoses, prognoses, and tailored
+immunotherapy based on the immune status of individual patients. However, they
+are expensive and time consuming processes which require complex staining and
+imaging techniques by expert technicians. Hoechst staining is much cheaper and
+easier to perform, but is not typically used in this case as it binds to DNA
+rather than to the proteins targeted by immunofluorescent techniques, and it
+was not previously thought possible to differentiate cells expressing these
+proteins based only on DNA morphology. In this work we show otherwise, training
+a deep convolutional neural network to identify cells expressing three proteins
+(T lymphocyte markers CD3 and CD8, and the B lymphocyte marker CD20) with
+greater than 90% precision and recall, from Hoechst 33342 stained tissue only.
+Our model learns previously unknown morphological features associated with
+expression of these proteins which can be used to accurately differentiate
+lymphocyte subtypes for use in key prognostic metrics such as assessment of
+immune cell infiltration,and thereby predict and improve patient outcomes
+without the need for costly multiplex immunofluorescence.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Cooper_J/0/1/0/all/0/1"&gt;Jessica Cooper&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Um_I/0/1/0/all/0/1"&gt;In Hwa Um&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Arandjelovic_O/0/1/0/all/0/1"&gt;Ognjen Arandjelovi&amp;#x107;&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Harrison_D/0/1/0/all/0/1"&gt;David J Harrison&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GLIB: Towards Automated Test Oracle for Graphically-Rich Applications. (arXiv:2106.10507v3 [cs.SE] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2106.10507</id>
+        <link href="http://arxiv.org/abs/2106.10507"/>
+        <updated>2021-07-19T01:59:51.012Z</updated>
+        <summary type="html"><![CDATA[Graphically-rich applications such as games are ubiquitous with attractive
+visual effects of Graphical User Interface (GUI) that offers a bridge between
+software applications and end-users. However, various types of graphical
+glitches may arise from such GUI complexity and have become one of the main
+component of software compatibility issues. Our study on bug reports from game
+development teams in NetEase Inc. indicates that graphical glitches frequently
+occur during the GUI rendering and severely degrade the quality of
+graphically-rich applications such as video games. Existing automated testing
+techniques for such applications focus mainly on generating various GUI test
+sequences and check whether the test sequences can cause crashes. These
+techniques require constant human attention to captures non-crashing bugs such
+as bugs causing graphical glitches. In this paper, we present the first step in
+automating the test oracle for detecting non-crashing bugs in graphically-rich
+applications. Specifically, we propose \texttt{GLIB} based on a code-based data
+augmentation technique to detect game GUI glitches. We perform an evaluation of
+\texttt{GLIB} on 20 real-world game apps (with bug reports available) and the
+result shows that \texttt{GLIB} can achieve 100\% precision and 99.5\% recall
+in detecting non-crashing bugs such as game GUI glitches. Practical application
+of \texttt{GLIB} on another 14 real-world games (without bug reports) further
+demonstrates that \texttt{GLIB} can effectively uncover GUI glitches, with 48
+of 53 bugs reported by \texttt{GLIB} having been confirmed and fixed so far.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Chen_K/0/1/0/all/0/1"&gt;Ke Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Li_Y/0/1/0/all/0/1"&gt;Yufei Li&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chen_Y/0/1/0/all/0/1"&gt;Yingfeng Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Fan_C/0/1/0/all/0/1"&gt;Changjie Fan&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Hu_Z/0/1/0/all/0/1"&gt;Zhipeng Hu&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Yang_W/0/1/0/all/0/1"&gt;Wei Yang&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hoechst Is All You Need: Lymphocyte Classification with Deep Learning. (arXiv:2107.04388v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2107.04388</id>
+        <link href="http://arxiv.org/abs/2107.04388"/>
+        <updated>2021-07-19T01:59:50.979Z</updated>
+        <summary type="html"><![CDATA[Multiplex immunofluorescence and immunohistochemistry benefit patients by
+allowing cancer pathologists to identify several proteins expressed on the
+surface of cells, enabling cell classification, better understanding of the
+tumour micro-environment, more accurate diagnoses, prognoses, and tailored
+immunotherapy based on the immune status of individual patients. However, they
+are expensive and time consuming processes which require complex staining and
+imaging techniques by expert technicians. Hoechst staining is much cheaper and
+easier to perform, but is not typically used in this case as it binds to DNA
+rather than to the proteins targeted by immunofluorescent techniques, and it
+was not previously thought possible to differentiate cells expressing these
+proteins based only on DNA morphology. In this work we show otherwise, training
+a deep convolutional neural network to identify cells expressing three proteins
+(T lymphocyte markers CD3 and CD8, and the B lymphocyte marker CD20) with
+greater than 90% precision and recall, from Hoechst 33342 stained tissue only.
+Our model learns previously unknown morphological features associated with
+expression of these proteins which can be used to accurately differentiate
+lymphocyte subtypes for use in key prognostic metrics such as assessment of
+immune cell infiltration,and thereby predict and improve patient outcomes
+without the need for costly multiplex immunofluorescence.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Cooper_J/0/1/0/all/0/1"&gt;Jessica Cooper&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Um_I/0/1/0/all/0/1"&gt;In Hwa Um&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Arandjelovic_O/0/1/0/all/0/1"&gt;Ognjen Arandjelovi&amp;#x107;&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Harrison_D/0/1/0/all/0/1"&gt;David J Harrison&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bellman Eluder Dimension: New Rich Classes of RL Problems, and Sample-Efficient Algorithms. (arXiv:2102.00815v4 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2102.00815</id>
