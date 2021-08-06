@@ -2205,6 +2205,15 @@
       "siteUrl": "http://arxiv.org/",
       "articles": [
         {
+          "id": "http://arxiv.org/abs/2107.14230",
+          "author": "<a href=\"http://arxiv.org/find/cs/1/au:+Ye_S/0/1/0/all/0/1\">Shuquan Ye</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Chen_D/0/1/0/all/0/1\">Dongdong Chen</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Han_S/0/1/0/all/0/1\">Songfang Han</a>, <a href=\"http://arxiv.org/find/cs/1/au:+Liao_J/0/1/0/all/0/1\">Jing Liao</a>",
+          "description": "Point cloud segmentation is a fundamental task in 3D. Despite recent progress\non point cloud segmentation with the power of deep networks, current deep\nlearning methods based on the clean label assumptions may fail with noisy\nlabels. Yet, object class labels are often mislabeled in real-world point cloud\ndatasets. In this work, we take the lead in solving this issue by proposing a\nnovel Point Noise-Adaptive Learning (PNAL) framework. Compared to existing\nnoise-robust methods on image tasks, our PNAL is noise-rate blind, to cope with\nthe spatially variant noise rate problem specific to point clouds.\nSpecifically, we propose a novel point-wise confidence selection to obtain\nreliable labels based on the historical predictions of each point. A novel\ncluster-wise label correction is proposed with a voting strategy to generate\nthe best possible label taking the neighbor point correlations into\nconsideration. We conduct extensive experiments to demonstrate the\neffectiveness of PNAL on both synthetic and real-world noisy datasets. In\nparticular, even with $60\\%$ symmetric noisy labels, our proposed method\nproduces much better results than its baseline counterpart without PNAL and is\ncomparable to the ideal upper bound trained on a completely clean dataset.\nMoreover, we fully re-labeled the validation set of a popular but noisy\nreal-world scene dataset ScanNetV2 to make it clean, for rigorous experiment\nand future research. Our code and data are available at\n\\url{https://shuquanye.com/PNAL_website/}.",
+          "link": "http://arxiv.org/abs/2107.14230",
+          "publishedOn": "2021-08-06T01:58:38.210Z",
+          "wordCount": 701,
+          "title": "Learning with Noisy Labels for Robust Point Cloud Segmentation. (arXiv:2107.14230v2 [cs.CV] UPDATED)"
+        },
+        {
           "id": "http://arxiv.org/abs/2108.02602",
           "author": "<a href=\"http://arxiv.org/find/math/1/au:+Condat_L/0/1/0/all/0/1\">Laurent Condat</a>",
           "description": "It is common to have to process signals or images whose values are cyclic and\ncan be represented as points on the complex circle, like wrapped phases,\nangles, orientations, or color hues. We consider a Tikhonov-type regularization\nmodel to smoothen or interpolate circle-valued signals defined on arbitrary\ngraphs. We propose a convex relaxation of this nonconvex problem as a\nsemidefinite program, and an efficient algorithm to solve it.",

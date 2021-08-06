@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-08-06T00:51:48.233Z</updated>
+    <updated>2021-08-06T01:58:38.272Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Learning with Noisy Labels for Robust Point Cloud Segmentation. (arXiv:2107.14230v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2107.14230</id>
+        <link href="http://arxiv.org/abs/2107.14230"/>
+        <updated>2021-08-06T01:58:38.210Z</updated>
+        <summary type="html"><![CDATA[Point cloud segmentation is a fundamental task in 3D. Despite recent progress
+on point cloud segmentation with the power of deep networks, current deep
+learning methods based on the clean label assumptions may fail with noisy
+labels. Yet, object class labels are often mislabeled in real-world point cloud
+datasets. In this work, we take the lead in solving this issue by proposing a
+novel Point Noise-Adaptive Learning (PNAL) framework. Compared to existing
+noise-robust methods on image tasks, our PNAL is noise-rate blind, to cope with
+the spatially variant noise rate problem specific to point clouds.
+Specifically, we propose a novel point-wise confidence selection to obtain
+reliable labels based on the historical predictions of each point. A novel
+cluster-wise label correction is proposed with a voting strategy to generate
+the best possible label taking the neighbor point correlations into
+consideration. We conduct extensive experiments to demonstrate the
+effectiveness of PNAL on both synthetic and real-world noisy datasets. In
+particular, even with $60\%$ symmetric noisy labels, our proposed method
+produces much better results than its baseline counterpart without PNAL and is
+comparable to the ideal upper bound trained on a completely clean dataset.
+Moreover, we fully re-labeled the validation set of a popular but noisy
+real-world scene dataset ScanNetV2 to make it clean, for rigorous experiment
+and future research. Our code and data are available at
+\url{https://shuquanye.com/PNAL_website/}.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Ye_S/0/1/0/all/0/1"&gt;Shuquan Ye&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Chen_D/0/1/0/all/0/1"&gt;Dongdong Chen&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Han_S/0/1/0/all/0/1"&gt;Songfang Han&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Liao_J/0/1/0/all/0/1"&gt;Jing Liao&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Predicting Unreliable Predictions by Shattering a Neural Network. (arXiv:2106.08365v2 [cs.LG] UPDATED)]]></title>
         <id>http://arxiv.org/abs/2106.08365</id>

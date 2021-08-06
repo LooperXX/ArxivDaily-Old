@@ -715,6 +715,39 @@ both higher diversity and higher inference speed.</span>
                     <section class="articles-per-source">
                         <article>
                             <details class="article-expander">
+                                <summary class="article-expander__title">Learning with Noisy Labels for Robust Point Cloud Segmentation. (arXiv:2107.14230v2 [cs.CV] UPDATED)</summary>
+                                <div class="article-authors">
+                                    <a href="http://arxiv.org/find/cs/1/au:+Ye_S/0/1/0/all/0/1">Shuquan Ye</a>, <a href="http://arxiv.org/find/cs/1/au:+Chen_D/0/1/0/all/0/1">Dongdong Chen</a>, <a href="http://arxiv.org/find/cs/1/au:+Han_S/0/1/0/all/0/1">Songfang Han</a>, <a href="http://arxiv.org/find/cs/1/au:+Liao_J/0/1/0/all/0/1">Jing Liao</a>
+                                </div>
+                                <a class="article-summary-link article-summary-box-outer" href="http://arxiv.org/abs/2107.14230">
+                                    <div class="article-summary-box-inner">
+                                        <span>Point cloud segmentation is a fundamental task in 3D. Despite recent progress
+on point cloud segmentation with the power of deep networks, current deep
+learning methods based on the clean label assumptions may fail with noisy
+labels. Yet, object class labels are often mislabeled in real-world point cloud
+datasets. In this work, we take the lead in solving this issue by proposing a
+novel Point Noise-Adaptive Learning (PNAL) framework. Compared to existing
+noise-robust methods on image tasks, our PNAL is noise-rate blind, to cope with
+the spatially variant noise rate problem specific to point clouds.
+Specifically, we propose a novel point-wise confidence selection to obtain
+reliable labels based on the historical predictions of each point. A novel
+cluster-wise label correction is proposed with a voting strategy to generate
+the best possible label taking the neighbor point correlations into
+consideration. We conduct extensive experiments to demonstrate the
+effectiveness of PNAL on both synthetic and real-world noisy datasets. In
+particular, even with $60\%$ symmetric noisy labels, our proposed method
+produces much better results than its baseline counterpart without PNAL and is
+comparable to the ideal upper bound trained on a completely clean dataset.
+Moreover, we fully re-labeled the validation set of a popular but noisy
+real-world scene dataset ScanNetV2 to make it clean, for rigorous experiment
+and future research. Our code and data are available at
+\url{https://shuquanye.com/PNAL_website/}.</span>
+                                    </div>
+                                </a>
+                            </details>
+                        </article>
+                        <article>
+                            <details class="article-expander">
                                 <summary class="article-expander__title">Tikhonov Regularization of Circle-Valued Signals. (arXiv:2108.02602v1 [math.OC])</summary>
                                 <div class="article-authors">
                                     <a href="http://arxiv.org/find/math/1/au:+Condat_L/0/1/0/all/0/1">Laurent Condat</a>
@@ -38633,7 +38666,7 @@ to the best of our knowledge, no similar datasets are available.</span>
     </section>
 
     <footer>
-        <time id="build-timestamp" datetime="2021-08-06T00:51:48.179Z">2021-08-06T00:51:48.179Z</time>
+        <time id="build-timestamp" datetime="2021-08-06T01:58:38.212Z">2021-08-06T01:58:38.212Z</time>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
