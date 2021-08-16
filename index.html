@@ -722,6 +722,43 @@ hate. Both HatemojiCheck and HatemojiTrain are made publicly available.</span>
                     <section class="articles-per-source">
                         <article>
                             <details class="article-expander">
+                                <summary class="article-expander__title">Disentangled Lifespan Face Synthesis. (arXiv:2108.02874v2 [cs.CV] UPDATED)</summary>
+                                <div class="article-authors">
+                                    <a href="http://arxiv.org/find/cs/1/au:+He_S/0/1/0/all/0/1">Sen He</a>, <a href="http://arxiv.org/find/cs/1/au:+Liao_W/0/1/0/all/0/1">Wentong Liao</a>, <a href="http://arxiv.org/find/cs/1/au:+Yang_M/0/1/0/all/0/1">Michael Ying Yang</a>, <a href="http://arxiv.org/find/cs/1/au:+Song_Y/0/1/0/all/0/1">Yi-Zhe Song</a>, <a href="http://arxiv.org/find/cs/1/au:+Rosenhahn_B/0/1/0/all/0/1">Bodo Rosenhahn</a>, <a href="http://arxiv.org/find/cs/1/au:+Xiang_T/0/1/0/all/0/1">Tao Xiang</a>
+                                </div>
+                                <a class="article-summary-link article-summary-box-outer" href="http://arxiv.org/abs/2108.02874">
+                                    <div class="article-summary-box-inner">
+                                        <span>A lifespan face synthesis (LFS) model aims to generate a set of
+photo-realistic face images of a person&#x27;s whole life, given only one snapshot
+as reference. The generated face image given a target age code is expected to
+be age-sensitive reflected by bio-plausible transformations of shape and
+texture, while being identity preserving. This is extremely challenging because
+the shape and texture characteristics of a face undergo separate and highly
+nonlinear transformations w.r.t. age. Most recent LFS models are based on
+generative adversarial networks (GANs) whereby age code conditional
+transformations are applied to a latent face representation. They benefit
+greatly from the recent advancements of GANs. However, without explicitly
+disentangling their latent representations into the texture, shape and identity
+factors, they are fundamentally limited in modeling the nonlinear age-related
+transformation on texture and shape whilst preserving identity. In this work, a
+novel LFS model is proposed to disentangle the key face characteristics
+including shape, texture and identity so that the unique shape and texture age
+transformations can be modeled effectively. This is achieved by extracting
+shape, texture and identity features separately from an encoder. Critically,
+two transformation modules, one conditional convolution based and the other
+channel attention based, are designed for modeling the nonlinear shape and
+texture feature transformations respectively. This is to accommodate their
+rather distinct aging processes and ensure that our synthesized images are both
+age-sensitive and identity preserving. Extensive experiments show that our LFS
+model is clearly superior to the state-of-the-art alternatives. Codes and demo
+are available on our project website:
+\url{https://senhe.github.io/projects/iccv_2021_lifespan_face}.</span>
+                                    </div>
+                                </a>
+                            </details>
+                        </article>
+                        <article>
+                            <details class="article-expander">
                                 <summary class="article-expander__title">Unifying Nonlocal Blocks for Neural Networks. (arXiv:2108.02451v2 [cs.CV] UPDATED)</summary>
                                 <div class="article-authors">
                                     <a href="http://arxiv.org/find/cs/1/au:+Zhu_L/0/1/0/all/0/1">Lei Zhu</a>, <a href="http://arxiv.org/find/cs/1/au:+She_Q/0/1/0/all/0/1">Qi She</a>, <a href="http://arxiv.org/find/cs/1/au:+Li_D/0/1/0/all/0/1">Duo Li</a>, <a href="http://arxiv.org/find/cs/1/au:+Lu_Y/0/1/0/all/0/1">Yanye Lu</a>, <a href="http://arxiv.org/find/cs/1/au:+Kang_X/0/1/0/all/0/1">Xuejing Kang</a>, <a href="http://arxiv.org/find/cs/1/au:+Hu_J/0/1/0/all/0/1">Jie Hu</a>, <a href="http://arxiv.org/find/cs/1/au:+Wang_C/0/1/0/all/0/1">Changhu Wang</a>
@@ -3051,6 +3088,32 @@ fields with zero upfront human annotation or training with an Avg. F1 of 87.50.<
                 <section>
                     <h3 class="source-name"><a class="source-name__link" href="http://export.arxiv.org/rss/cs.LG"">cs.LG updates on arXiv.org</a></h3>
                     <section class="articles-per-source">
+                        <article>
+                            <details class="article-expander">
+                                <summary class="article-expander__title">Shift-invariant waveform learning on epileptic ECoG. (arXiv:2108.03177v2 [cs.LG] UPDATED)</summary>
+                                <div class="article-authors">
+                                    <a href="http://arxiv.org/find/cs/1/au:+Mendoza_Cardenas_C/0/1/0/all/0/1">Carlos H. Mendoza-Cardenas</a>, <a href="http://arxiv.org/find/cs/1/au:+Brockmeier_A/0/1/0/all/0/1">Austin J. Brockmeier</a>
+                                </div>
+                                <a class="article-summary-link article-summary-box-outer" href="http://arxiv.org/abs/2108.03177">
+                                    <div class="article-summary-box-inner">
+                                        <span>Seizure detection algorithms must discriminate abnormal neuronal activity
+associated with a seizure from normal neural activity in a variety of
+conditions. Our approach is to seek spatiotemporal waveforms with distinct
+morphology in electrocorticographic (ECoG) recordings of epileptic patients
+that are indicative of a subsequent seizure (preictal) versus non-seizure
+segments (interictal). To find these waveforms we apply a shift-invariant
+k-means algorithm to segments of spatially filtered signals to learn codebooks
+of prototypical waveforms. The frequency of the cluster labels from the
+codebooks is then used to train a binary classifier that predicts the class
+(preictal or interictal) of a test ECoG segment. We use the Matthews
+correlation coefficient to evaluate the performance of the classifier and the
+quality of the codebooks. We found that our method finds recurrent
+non-sinusoidal waveforms that could be used to build interpretable features for
+seizure prediction and that are also physiologically meaningful.</span>
+                                    </div>
+                                </a>
+                            </details>
+                        </article>
                         <article>
                             <details class="article-expander">
                                 <summary class="article-expander__title">Towards Efficient Point Cloud Graph Neural Networks Through Architectural Simplification. (arXiv:2108.06317v1 [cs.CV])</summary>
@@ -36468,7 +36531,7 @@ smartphones, thus making cough detection remote and non-contact.</span>
     </section>
 
     <footer>
-        <time id="build-timestamp" datetime="2021-08-16T00:47:33.991Z">2021-08-16T00:47:33.991Z</time>
+        <time id="build-timestamp" datetime="2021-08-16T01:57:42.823Z">2021-08-16T01:57:42.823Z</time>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>

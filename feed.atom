@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://looperxx.github.io/ArxivDaily/index.html</id>
     <title>ArxivDaily</title>
-    <updated>2021-08-16T00:47:34.037Z</updated>
+    <updated>2021-08-16T01:57:42.876Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://looperxx.github.io/ArxivDaily/index.html"/>
     <link rel="self" href="https://looperxx.github.io/ArxivDaily/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Disentangled Lifespan Face Synthesis. (arXiv:2108.02874v2 [cs.CV] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2108.02874</id>
+        <link href="http://arxiv.org/abs/2108.02874"/>
+        <updated>2021-08-16T01:57:42.822Z</updated>
+        <summary type="html"><![CDATA[A lifespan face synthesis (LFS) model aims to generate a set of
+photo-realistic face images of a person's whole life, given only one snapshot
+as reference. The generated face image given a target age code is expected to
+be age-sensitive reflected by bio-plausible transformations of shape and
+texture, while being identity preserving. This is extremely challenging because
+the shape and texture characteristics of a face undergo separate and highly
+nonlinear transformations w.r.t. age. Most recent LFS models are based on
+generative adversarial networks (GANs) whereby age code conditional
+transformations are applied to a latent face representation. They benefit
+greatly from the recent advancements of GANs. However, without explicitly
+disentangling their latent representations into the texture, shape and identity
+factors, they are fundamentally limited in modeling the nonlinear age-related
+transformation on texture and shape whilst preserving identity. In this work, a
+novel LFS model is proposed to disentangle the key face characteristics
+including shape, texture and identity so that the unique shape and texture age
+transformations can be modeled effectively. This is achieved by extracting
+shape, texture and identity features separately from an encoder. Critically,
+two transformation modules, one conditional convolution based and the other
+channel attention based, are designed for modeling the nonlinear shape and
+texture feature transformations respectively. This is to accommodate their
+rather distinct aging processes and ensure that our synthesized images are both
+age-sensitive and identity preserving. Extensive experiments show that our LFS
+model is clearly superior to the state-of-the-art alternatives. Codes and demo
+are available on our project website:
+\url{https://senhe.github.io/projects/iccv_2021_lifespan_face}.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+He_S/0/1/0/all/0/1"&gt;Sen He&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Liao_W/0/1/0/all/0/1"&gt;Wentong Liao&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Yang_M/0/1/0/all/0/1"&gt;Michael Ying Yang&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Song_Y/0/1/0/all/0/1"&gt;Yi-Zhe Song&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Rosenhahn_B/0/1/0/all/0/1"&gt;Bodo Rosenhahn&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Xiang_T/0/1/0/all/0/1"&gt;Tao Xiang&lt;/a&gt;</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shift-invariant waveform learning on epileptic ECoG. (arXiv:2108.03177v2 [cs.LG] UPDATED)]]></title>
+        <id>http://arxiv.org/abs/2108.03177</id>
+        <link href="http://arxiv.org/abs/2108.03177"/>
+        <updated>2021-08-16T01:57:42.793Z</updated>
+        <summary type="html"><![CDATA[Seizure detection algorithms must discriminate abnormal neuronal activity
+associated with a seizure from normal neural activity in a variety of
+conditions. Our approach is to seek spatiotemporal waveforms with distinct
+morphology in electrocorticographic (ECoG) recordings of epileptic patients
+that are indicative of a subsequent seizure (preictal) versus non-seizure
+segments (interictal). To find these waveforms we apply a shift-invariant
+k-means algorithm to segments of spatially filtered signals to learn codebooks
+of prototypical waveforms. The frequency of the cluster labels from the
+codebooks is then used to train a binary classifier that predicts the class
+(preictal or interictal) of a test ECoG segment. We use the Matthews
+correlation coefficient to evaluate the performance of the classifier and the
+quality of the codebooks. We found that our method finds recurrent
+non-sinusoidal waveforms that could be used to build interpretable features for
+seizure prediction and that are also physiologically meaningful.]]></summary>
+        <author>
+            <name>&lt;a href="http://arxiv.org/find/cs/1/au:+Mendoza_Cardenas_C/0/1/0/all/0/1"&gt;Carlos H. Mendoza-Cardenas&lt;/a&gt;, &lt;a href="http://arxiv.org/find/cs/1/au:+Brockmeier_A/0/1/0/all/0/1"&gt;Austin J. Brockmeier&lt;/a&gt;</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An Intelligent Recommendation-cum-Reminder System. (arXiv:2108.06206v1 [cs.IR])]]></title>
         <id>http://arxiv.org/abs/2108.06206</id>
